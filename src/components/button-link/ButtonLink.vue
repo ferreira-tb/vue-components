@@ -14,9 +14,13 @@ defineSlots<{ default?: () => VNode }>();
 
 <template>
   <div v-if="disabled">
-    <ButtonLinkInner :label :size :variant :style :button-class />
+    <ButtonLinkInner :label :size :variant :style :button-class>
+      <slot></slot>
+    </ButtonLinkInner>
   </div>
   <RouterLink v-else :to="{ name: to }">
-    <ButtonLinkInner :label :size :variant :style :button-class />
+    <ButtonLinkInner :label :size :variant :style :button-class>
+      <slot></slot>
+    </ButtonLinkInner>
   </RouterLink>
 </template>
