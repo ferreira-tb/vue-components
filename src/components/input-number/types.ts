@@ -10,8 +10,6 @@ export interface InputNumberProps {
   disableIncrement?: boolean;
   disableWheelChange?: NumberFieldRootProps['disableWheelChange'];
   formatOptions?: NumberFieldRootProps['formatOptions'];
-  label?: string;
-  labelClass?: HTMLAttributes['class'];
   max?: NumberFieldRootProps['max'];
   min?: NumberFieldRootProps['min'];
   modelValue: Option<number>;

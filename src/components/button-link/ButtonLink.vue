@@ -1,14 +1,8 @@
 <script setup lang="ts" generic="T extends string">
 import type { VNode } from 'vue';
-import { cn } from '../../utils';
-import { Button } from '../button';
 import { RouterLink } from 'vue-router';
 import type { ButtonLinkProps } from './types';
-import { createReusableTemplate } from '@vueuse/core';
-
-defineOptions({
-  inheritAttrs: false,
-});
+import ButtonLinkInner from './ButtonLinkInner.vue';
 
 withDefaults(defineProps<ButtonLinkProps<T>>(), {
   size: 'default',
@@ -16,23 +10,13 @@ withDefaults(defineProps<ButtonLinkProps<T>>(), {
 });
 
 defineSlots<{ default?: () => VNode }>();
-
-// eslint-disable-next-line @typescript-eslint/naming-convention
-const [DefineTemplate, ReuseTemplate] = createReusableTemplate();
 </script>
 
 <template>
-  <DefineTemplate>
-    <Button v-bind="$attrs" :variant :size :disabled :style :class="cn('size-full', buttonClass)">
-      <span v-if="label">{{ label }}</span>
-      <slot v-else></slot>
-    </Button>
-  </DefineTemplate>
-
   <div v-if="disabled">
-    <ReuseTemplate />
+    <ButtonLinkInner :label :size :variant :style :button-class />
   </div>
   <RouterLink v-else :to="{ name: to }">
-    <ReuseTemplate />
+    <ButtonLinkInner :label :size :variant :style :button-class />
   </RouterLink>
 </template>

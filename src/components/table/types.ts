@@ -6,14 +6,14 @@ export interface TableProps {
   captionClass?: HTMLAttributes['class'];
   captionStyle?: HTMLAttributes['style'];
   class?: HTMLAttributes['class'];
-  containerClass?: HTMLAttributes['class'];
-  containerStyle?: HTMLAttributes['style'];
   footerClass?: HTMLAttributes['class'];
   footerStyle?: HTMLAttributes['style'];
   headerClass?: HTMLAttributes['class'];
   headerStyle?: HTMLAttributes['style'];
   height?: number | string;
   style?: HTMLAttributes['style'];
+  tableClass?: HTMLAttributes['class'];
+  tableStyle?: HTMLAttributes['style'];
   width?: number | string;
 }
 

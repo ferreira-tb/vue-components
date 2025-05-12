@@ -5,10 +5,6 @@ import { type Option, toPixel } from '@tb-dev/utils';
 import { computed, type CSSProperties, type VNode } from 'vue';
 import { TableBody, TableCaption, TableFooter, TableHeader } from '../__base/table';
 
-defineOptions({
-  inheritAttrs: false,
-});
-
 const props = defineProps<TableProps>();
 
 defineSlots<{
@@ -30,21 +26,20 @@ const containerWidth = computed<Option<CSSProperties>>(() => {
 <template>
   <div
     data-slot="table-container"
-    :style="[containerHeight, containerWidth, containerStyle]"
+    :style="[containerHeight, containerWidth, style]"
     :class="
       cn(
         'relative w-full',
         containerWidth ? 'overflow-x-auto' : 'overflow-x-hidden',
         containerHeight ? 'overflow-y-auto' : 'overflow-y-hidden',
-        containerClass
+        props.class
       )
     "
   >
     <table
-      v-bind="$attrs"
       data-slot="table"
-      :style
-      :class="cn('w-full caption-bottom text-sm', props.class)"
+      :style="tableStyle"
+      :class="cn('w-full caption-bottom text-sm', props.tableClass)"
     >
       <TableCaption v-if="$slots.caption" :style="captionStyle" :class="captionClass">
         <slot name="caption"></slot>

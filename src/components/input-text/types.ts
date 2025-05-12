@@ -5,8 +5,6 @@ export interface InputTextProps {
   autofocus?: InputHTMLAttributes['autofocus'];
   class?: HTMLAttributes['class'];
   disabled?: InputHTMLAttributes['disabled'];
-  label?: string;
-  labelClass?: HTMLAttributes['class'];
   max?: InputHTMLAttributes['maxlength'];
   min?: InputHTMLAttributes['minlength'];
   onBlur?: () => void;

@@ -6,10 +6,6 @@ import type { Option } from '@tb-dev/utils';
 import type { InputTextProps } from './types';
 import { computed, useTemplateRef } from 'vue';
 
-defineOptions({
-  inheritAttrs: false,
-});
-
 const props = withDefaults(defineProps<InputTextProps>(), {
   spellcheck: 'false',
 });
@@ -42,8 +38,6 @@ defineExpose({ inputEl, focus, blur, select });
     :autocomplete
     :autofocus
     :disabled
-    :label
-    :label-class
     :max
     :min
     :on-blur

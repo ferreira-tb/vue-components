@@ -10,8 +10,6 @@ export interface TextareaProps {
   cols?: TextareaHTMLAttributes['cols'];
   disabled?: boolean;
   height?: number | string;
-  label?: string;
-  labelClass?: HTMLAttributes['class'];
   max?: TextareaHTMLAttributes['maxlength'];
   min?: TextareaHTMLAttributes['minlength'];
   modelValue: Option<string>;
