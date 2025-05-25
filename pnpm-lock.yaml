@@ -12,8 +12,8 @@ importers:
         specifier: ^8.21.3
         version: 8.21.3(vue@3.5.14(typescript@5.8.3))
       '@tb-dev/utils':
-        specifier: ^7.0.0
-        version: 7.0.0
+        specifier: ^7.0.1
+        version: 7.0.1
       '@tb-dev/vue':
         specifier: ^2.0.4
         version: 2.0.4(typescript@5.8.3)
@@ -52,8 +52,8 @@ importers:
         specifier: ^4.1.7
         version: 4.1.7(vite@6.3.5(@types/node@22.15.21)(jiti@2.4.2)(lightningcss@1.30.1))
       '@tb-dev/eslint-config':
-        specifier: ^7.1.4
-        version: 7.1.4(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: ^7.1.5
+        version: 7.1.5(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       '@types/node':
         specifier: ^22.15.21
         version: 22.15.21
@@ -637,12 +637,12 @@ packages:
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
-  '@tb-dev/eslint-config@7.1.4':
-    resolution: {integrity: sha512-RmFX7bMBgLnga/T1pRGSYTmpDRSPsI/qxHMEK7bGhVIvR0g+VpQ4l1hOazJwXZkk77Q43vEKlx+PwrT24hjqEw==}
+  '@tb-dev/eslint-config@7.1.5':
+    resolution: {integrity: sha512-ssAUMnoGMbo3uwRAr/qlNAgfTqwYV8/PR5lUKyb+99TKYsDvAxLDL0CSivh5IgxggK1uFTF+JUMYH4sodQdXKQ==}
     engines: {node: '>=22'}
 
-  '@tb-dev/utils@7.0.0':
-    resolution: {integrity: sha512-XPYPgUqqlOprw8o2ag+FWGWQfBXh8T3uIOYFi8+wXXz/3E4IOMf6sWXYMEHSg+dZ5BSirqyEcrNRaV876RjHGg==}
+  '@tb-dev/utils@7.0.1':
+    resolution: {integrity: sha512-Cv6ZxqZnQPE18j8pSd44PDEUcTkzL8kfZNIJkH/mG150XHNT9SKAwQvql9RJ7O71njfZsm+0tCpq3xU2QNIbkQ==}
 
   '@tb-dev/vue@2.0.4':
     resolution: {integrity: sha512-KcckVMGAV7NowTHdIzLy/yRKB1zeI4LP6BeJXIwWT77Pt0RK9hWXvVMEoDH6sNbUgXgIv+2w6uXqISdIPtKFmA==}
@@ -1145,8 +1145,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@16.1.0:
-    resolution: {integrity: sha512-aibexHNbb/jiUSObBgpHLj+sIuUmJnYcgXBlrfsiDZ9rt4aF2TFRbyLgZ2iFQuVZ1K5Mx3FVkbKRSgKrbK3K2g==}
+  globals@16.2.0:
+    resolution: {integrity: sha512-O+7l9tPdHCU320IigZZPj5zmRCFG9xHmx9cU8FqU2Rp+JN714seHV+2S9+JslCpY4gJwU2vOGox0wzgae/MCEg==}
     engines: {node: '>=18'}
 
   graceful-fs@4.2.11:
@@ -2293,25 +2293,25 @@ snapshots:
       '@tanstack/virtual-core': 3.13.8
       vue: 3.5.14(typescript@5.8.3)
 
-  '@tb-dev/eslint-config@7.1.4(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@tb-dev/eslint-config@7.1.5(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.32.1(@typescript-eslint/parser@8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/parser': 8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       eslint-plugin-perfectionist: 4.13.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       eslint-plugin-unicorn: 59.0.1(eslint@9.27.0(jiti@2.4.2))
       eslint-plugin-vue: 10.1.0(eslint@9.27.0(jiti@2.4.2))(vue-eslint-parser@10.1.3(eslint@9.27.0(jiti@2.4.2)))
-      globals: 16.1.0
+      globals: 16.2.0
       vue-eslint-parser: 10.1.3(eslint@9.27.0(jiti@2.4.2))
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
 
-  '@tb-dev/utils@7.0.0': {}
+  '@tb-dev/utils@7.0.1': {}
 
   '@tb-dev/vue@2.0.4(typescript@5.8.3)':
     dependencies:
-      '@tb-dev/utils': 7.0.0
+      '@tb-dev/utils': 7.0.1
       '@vueuse/core': 13.2.0(vue@3.5.14(typescript@5.8.3))
       vue: 3.5.14(typescript@5.8.3)
     transitivePeerDependencies:
@@ -2765,7 +2765,7 @@ snapshots:
       eslint: 9.27.0(jiti@2.4.2)
       esquery: 1.6.0
       find-up-simple: 1.0.1
-      globals: 16.1.0
+      globals: 16.2.0
       indent-string: 5.0.0
       is-builtin-module: 5.0.0
       jsesc: 3.1.0
@@ -2924,7 +2924,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@16.1.0: {}
+  globals@16.2.0: {}
 
   graceful-fs@4.2.11: {}
 
