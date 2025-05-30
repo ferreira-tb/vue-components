@@ -17,9 +17,9 @@ defineSlots<{
   trigger: () => VNode;
 }>();
 
-const popover = useTemplateRef('contentEl');
+const component = useTemplateRef('contentEl');
 
-onClickOutside(popover, () => {
+onClickOutside(component, () => {
   if (!props.keepOpen) close();
 });
 

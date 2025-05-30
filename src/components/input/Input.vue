@@ -17,9 +17,9 @@ const value = computed<string | undefined>({
   set: (it) => emit('update:modelValue', it ?? null),
 });
 
-const inputComponent = useTemplateRef('inputComponent');
+const component = useTemplateRef('inputComponent');
 const inputEl = computed(() => {
-  return inputComponent.value?.$el as Option<HTMLInputElement>;
+  return component.value?.$el as Option<HTMLInputElement>;
 });
 
 function focus() {

@@ -19,9 +19,9 @@ const emit = defineEmits<{
   'update:modelValue': [value: null | string];
 }>();
 
-const textareaComponent = useTemplateRef('textareaComponent');
+const component = useTemplateRef('textareaComponent');
 const textareaEl = computed(() => {
-  return textareaComponent.value?.$el as Option<HTMLTextAreaElement>;
+  return component.value?.$el as Option<HTMLTextAreaElement>;
 });
 
 const value = computed<string | undefined>({

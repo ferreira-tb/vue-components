@@ -13,6 +13,8 @@ import {
 
 const props = defineProps<SidebarProps>();
 
+const open = defineModel<boolean>('open', { required: false });
+
 defineSlots<{
   content?: () => VNode;
   default?: () => VNode;
@@ -30,7 +32,7 @@ const sidebarStyle = computed(() => {
 </script>
 
 <template>
-  <SidebarProvider :default-open :style="sidebarStyle">
+  <SidebarProvider v-model:open="open" :default-open :style="sidebarStyle">
     <Sidebar :collapsible :side :variant>
       <SidebarHeader v-if="$slots.header">
         <slot name="header"></slot>

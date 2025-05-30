@@ -12,8 +12,8 @@ const props = withDefaults(defineProps<InputTextProps>(), {
 
 const value = defineModel<Option<string>>({ required: true });
 
-const inputComponent = useTemplateRef('inputComponent');
-const inputEl = computed(() => inputComponent.value?.inputEl);
+const component = useTemplateRef('inputComponent');
+const inputEl = computed(() => component.value?.inputEl);
 
 function focus() {
   inputEl.value?.focus();
