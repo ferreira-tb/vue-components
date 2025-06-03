@@ -15,8 +15,8 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       '@tb-dev/vue':
-        specifier: ^2.0.5
-        version: 2.0.5(typescript@5.8.3)
+        specifier: ^2.0.6
+        version: 2.0.6(typescript@5.8.3)
       '@vueuse/core':
         specifier: ^13.3.0
         version: 13.3.0(vue@3.5.16(typescript@5.8.3))
@@ -644,8 +644,8 @@ packages:
   '@tb-dev/utils@7.0.2':
     resolution: {integrity: sha512-JeWn05urcg92fwxC4+fvgPEXCD50tELSYRLlYnD1NZXx/MFVgCXpPDtFd/aq8JbVaLoIHf6V2Xmk56NcS24DlQ==}
 
-  '@tb-dev/vue@2.0.5':
-    resolution: {integrity: sha512-fAGQcp/uE7tcicpKLX76TspHppqlAbiyNW23jliQbSySq8ZbsRPFXUFEuaTpy4GNR5c+Z9ZqxPtXGISo8PHqlQ==}
+  '@tb-dev/vue@2.0.6':
+    resolution: {integrity: sha512-PAdyWT+NZ9S4kpfhcz0D1GUQtGEoTOChMB8tjYSJ/EEXYkXKF6gziwY/38z+I3YFqyjJHYwW5eKZodkn4nnE+g==}
 
   '@types/argparse@1.0.38':
     resolution: {integrity: sha512-ebDJ9b0e702Yr7pWgB0jzm+CX4Srzz8RcXtLJDJB+BSccqMa36uyH/zUsSYao5+BD1ytv3k3rPYCq4mAE1hsXA==}
@@ -2344,7 +2344,7 @@ snapshots:
 
   '@tb-dev/utils@7.0.2': {}
 
-  '@tb-dev/vue@2.0.5(typescript@5.8.3)':
+  '@tb-dev/vue@2.0.6(typescript@5.8.3)':
     dependencies:
       '@tb-dev/utils': 7.0.2
       '@vueuse/core': 13.3.0(vue@3.5.16(typescript@5.8.3))
