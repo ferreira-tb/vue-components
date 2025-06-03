@@ -1,5 +1,4 @@
+import { PopoverContent } from '../__base/popover';
 import { default as Popover } from './Popover.vue';
 
-export type * from './types';
-
-export { Popover };
+export { Popover, PopoverContent };
