@@ -1,7 +1,6 @@
 <script setup lang="ts">
+import type { VNode } from 'vue';
 import type { PopoverProps } from './types';
-import { onClickOutside } from '@vueuse/core';
-import { useTemplateRef, type VNode } from 'vue';
 import {
   Popover as BasePopover,
   PopoverContent as BasePopoverContent,
@@ -17,18 +16,16 @@ defineSlots<{
   trigger: () => VNode;
 }>();
 
-const component = useTemplateRef('contentEl');
-
-onClickOutside(component, () => {
-  if (!props.keepOpen) close();
-});
-
 function open() {
   isOpen.value = true;
 }
 
 function close() {
   isOpen.value = false;
+}
+
+function onPointerDownOutside() {
+  if (!props.keepOpen) close();
 }
 
 defineExpose({ close, open });
@@ -39,7 +36,7 @@ defineExpose({ close, open });
     <BasePopoverTrigger as-child>
       <slot name="trigger"></slot>
     </BasePopoverTrigger>
-    <BasePopoverContent ref="contentEl" :class="contentClass">
+    <BasePopoverContent :class="contentClass" @pointer-down-outside="onPointerDownOutside">
       <slot></slot>
     </BasePopoverContent>
   </BasePopover>
