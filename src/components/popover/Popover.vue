@@ -36,7 +36,27 @@ defineExpose({ close, open });
     <BasePopoverTrigger as-child>
       <slot name="trigger"></slot>
     </BasePopoverTrigger>
-    <BasePopoverContent :class="contentClass" @pointer-down-outside="onPointerDownOutside">
+    <BasePopoverContent
+      :align
+      :align-offset
+      :arrow-padding
+      :avoid-collisions
+      :collision-boundary
+      :collision-padding
+      :disable-outside-pointer-events
+      :disable-update-on-layout-shift
+      :force-mount
+      :hide-when-detached
+      :position-strategy
+      :prioritize-position
+      :reference
+      :side
+      :side-offset
+      :sticky
+      :update-position-strategy
+      :class="contentClass"
+      @pointer-down-outside="onPointerDownOutside"
+    >
       <slot></slot>
     </BasePopoverContent>
   </BasePopover>
