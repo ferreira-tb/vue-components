@@ -14,3 +14,20 @@ export {
   ContextMenuSubTrigger,
   ContextMenuTrigger,
 } from '../__base/context-menu';
+
+export {
+  ContextMenu as TbContextMenu,
+  ContextMenuCheckboxItem as TbContextMenuCheckboxItem,
+  ContextMenuContent as TbContextMenuContent,
+  ContextMenuGroup as TbContextMenuGroup,
+  ContextMenuItem as TbContextMenuItem,
+  ContextMenuLabel as TbContextMenuLabel,
+  ContextMenuRadioGroup as TbContextMenuRadioGroup,
+  ContextMenuRadioItem as TbContextMenuRadioItem,
+  ContextMenuSeparator as TbContextMenuSeparator,
+  ContextMenuShortcut as TbContextMenuShortcut,
+  ContextMenuSub as TbContextMenuSub,
+  ContextMenuSubContent as TbContextMenuSubContent,
+  ContextMenuSubTrigger as TbContextMenuSubTrigger,
+  ContextMenuTrigger as TbContextMenuTrigger,
+} from '../__base/context-menu';

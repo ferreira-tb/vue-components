@@ -27,8 +27,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lucide-vue-next:
-        specifier: ^0.518.0
-        version: 0.518.0(vue@3.5.17(typescript@5.8.3))
+        specifier: ^0.522.0
+        version: 0.522.0(vue@3.5.17(typescript@5.8.3))
       reka-ui:
         specifier: ^2.3.1
         version: 2.3.1(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
@@ -70,8 +70,8 @@ importers:
         specifier: ^2.1.2
         version: 2.1.2(postcss@8.5.6)(prettier@3.5.3)
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.12
-        version: 0.6.12(prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.5.3))(prettier@3.5.3)
+        specifier: ^0.6.13
+        version: 0.6.13(prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.5.3))(prettier@3.5.3)
       tailwindcss:
         specifier: ^4.1.10
         version: 4.1.10
@@ -1380,8 +1380,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  lucide-vue-next@0.518.0:
-    resolution: {integrity: sha512-x4Vb3rMtz7y389aSGa0icMlm+X9vcO0tJBcXpvzi0K1NQn1IUUoXH4ENWQoLB/ZWtpkL1r6MAiIL+ycFPBFP8Q==}
+  lucide-vue-next@0.522.0:
+    resolution: {integrity: sha512-T1FFXc+4PDXu4zjsrfOlx4SGClavHDozE5LyKgX7N5dPtdGvG+ni+KCg1P2HPLmlWWT2LQlc6vnAicHU0KY1sw==}
     peerDependencies:
       vue: '>=3.0.1'
 
@@ -1541,8 +1541,8 @@ packages:
     peerDependencies:
       prettier: 3.x
 
-  prettier-plugin-tailwindcss@0.6.12:
-    resolution: {integrity: sha512-OuTQKoqNwV7RnxTPwXWzOFXy6Jc4z8oeRZYGuMpRyG3WbuR3jjXdQFK8qFBMBx8UHWdHrddARz2fgUenild6aw==}
+  prettier-plugin-tailwindcss@0.6.13:
+    resolution: {integrity: sha512-uQ0asli1+ic8xrrSmIOaElDu0FacR4x69GynTh2oZjFY10JUt6EEumTQl5tB4fMeD6I1naKd+4rXQQ7esT2i1g==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -3156,7 +3156,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-vue-next@0.518.0(vue@3.5.17(typescript@5.8.3)):
+  lucide-vue-next@0.522.0(vue@3.5.17(typescript@5.8.3)):
     dependencies:
       vue: 3.5.17(typescript@5.8.3)
 
@@ -3305,7 +3305,7 @@ snapshots:
     transitivePeerDependencies:
       - postcss
 
-  prettier-plugin-tailwindcss@0.6.12(prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.5.3))(prettier@3.5.3):
+  prettier-plugin-tailwindcss@0.6.13(prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.5.3))(prettier@3.5.3):
     dependencies:
       prettier: 3.5.3
     optionalDependencies:

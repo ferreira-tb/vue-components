@@ -15,3 +15,21 @@ export {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from '../__base/dropdown-menu';
+
+export {
+  DropdownMenu as TbDropdownMenu,
+  DropdownMenuCheckboxItem as TbDropdownMenuCheckboxItem,
+  DropdownMenuContent as TbDropdownMenuContent,
+  DropdownMenuGroup as TbDropdownMenuGroup,
+  DropdownMenuItem as TbDropdownMenuItem,
+  DropdownMenuLabel as TbDropdownMenuLabel,
+  DropdownMenuPortal as TbDropdownMenuPortal,
+  DropdownMenuRadioGroup as TbDropdownMenuRadioGroup,
+  DropdownMenuRadioItem as TbDropdownMenuRadioItem,
+  DropdownMenuSeparator as TbDropdownMenuSeparator,
+  DropdownMenuShortcut as TbDropdownMenuShortcut,
+  DropdownMenuSub as TbDropdownMenuSub,
+  DropdownMenuSubContent as TbDropdownMenuSubContent,
+  DropdownMenuSubTrigger as TbDropdownMenuSubTrigger,
+  DropdownMenuTrigger as TbDropdownMenuTrigger,
+} from '../__base/dropdown-menu';
