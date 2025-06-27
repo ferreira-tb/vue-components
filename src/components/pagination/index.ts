@@ -15,14 +15,3 @@ export {
   PaginationNext,
   PaginationPrevious,
 } from '../__base/pagination';
-
-export {
-  Pagination as TbPagination,
-  PaginationContent as TbPaginationContent,
-  PaginationEllipsis as TbPaginationEllipsis,
-  PaginationFirst as TbPaginationFirst,
-  PaginationItem as TbPaginationItem,
-  PaginationLast as TbPaginationLast,
-  PaginationNext as TbPaginationNext,
-  PaginationPrevious as TbPaginationPrevious,
-} from '../__base/pagination';

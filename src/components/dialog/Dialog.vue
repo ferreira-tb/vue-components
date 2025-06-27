@@ -13,6 +13,8 @@ import {
 
 defineProps<DialogProps>();
 
+const isOpen = defineModel<boolean>({ required: true });
+
 defineSlots<{
   default: () => VNode;
   description?: () => VNode;
@@ -23,7 +25,7 @@ defineSlots<{
 </script>
 
 <template>
-  <BaseDialog>
+  <BaseDialog v-model="isOpen">
     <BaseDialogTrigger>
       <slot name="trigger"></slot>
     </BaseDialogTrigger>

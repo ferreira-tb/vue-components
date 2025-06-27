@@ -15,13 +15,3 @@ export {
   SelectScrollUpButton,
   SelectSeparator,
 } from '../__base/select';
-
-export {
-  SelectGroup as TbSelectGroup,
-  SelectItem as TbSelectItem,
-  SelectItemText as TbSelectItemText,
-  SelectLabel as TbSelectLabel,
-  SelectScrollDownButton as TbSelectScrollDownButton,
-  SelectScrollUpButton as TbSelectScrollUpButton,
-  SelectSeparator as TbSelectSeparator,
-} from '../__base/select';

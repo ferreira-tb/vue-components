@@ -4,5 +4,3 @@ export type ToggleVariant = Variants['variant'];
 export type ToggleSize = Variants['size'];
 
 export { Toggle } from '../__base/toggle';
-
-export { Toggle as TbToggle } from '../__base/toggle';

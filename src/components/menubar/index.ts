@@ -15,21 +15,3 @@ export {
   MenubarSubTrigger,
   MenubarTrigger,
 } from '../__base/menubar';
-
-export {
-  Menubar as TbMenubar,
-  MenubarCheckboxItem as TbMenubarCheckboxItem,
-  MenubarContent as TbMenubarContent,
-  MenubarGroup as TbMenubarGroup,
-  MenubarItem as TbMenubarItem,
-  MenubarLabel as TbMenubarLabel,
-  MenubarMenu as TbMenubarMenu,
-  MenubarRadioGroup as TbMenubarRadioGroup,
-  MenubarRadioItem as TbMenubarRadioItem,
-  MenubarSeparator as TbMenubarSeparator,
-  MenubarShortcut as TbMenubarShortcut,
-  MenubarSub as TbMenubarSub,
-  MenubarSubContent as TbMenubarSubContent,
-  MenubarSubTrigger as TbMenubarSubTrigger,
-  MenubarTrigger as TbMenubarTrigger,
-} from '../__base/menubar';

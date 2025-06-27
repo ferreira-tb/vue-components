@@ -5,5 +5,3 @@ export type * from './types';
 export { toBooleanCheckboxValue } from './utils';
 
 export { Checkbox };
-
-export { Checkbox as TbCheckbox };
