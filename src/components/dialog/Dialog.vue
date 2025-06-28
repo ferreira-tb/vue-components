@@ -40,11 +40,11 @@ defineSlots<{
         </BaseDialogDescription>
       </BaseDialogHeader>
 
+      <slot></slot>
+
       <BaseDialogFooter v-if="$slots.footer" :class="footerClass">
         <slot name="footer"></slot>
       </BaseDialogFooter>
-
-      <slot></slot>
     </BaseDialogContent>
   </BaseDialog>
 </template>

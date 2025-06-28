@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/vue-components",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Vue components",
   "license": "MIT",
   "type": "module",
