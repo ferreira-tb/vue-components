@@ -20,13 +20,13 @@ defineSlots<{
   description?: () => VNode;
   footer?: () => VNode;
   title?: () => VNode;
-  trigger: () => VNode;
+  trigger?: () => VNode;
 }>();
 </script>
 
 <template>
   <BaseDialog v-model="isOpen">
-    <BaseDialogTrigger>
+    <BaseDialogTrigger v-if="$slots.trigger" as-child>
       <slot name="trigger"></slot>
     </BaseDialogTrigger>
 
