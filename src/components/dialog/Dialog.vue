@@ -25,7 +25,7 @@ defineSlots<{
 </script>
 
 <template>
-  <BaseDialog v-model="isOpen">
+  <BaseDialog v-model:open="isOpen">
     <BaseDialogTrigger v-if="$slots.trigger" as-child>
       <slot name="trigger"></slot>
     </BaseDialogTrigger>
