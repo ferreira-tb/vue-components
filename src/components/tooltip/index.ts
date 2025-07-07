@@ -1,3 +1,1 @@
-import { default as Tooltip } from './Tooltip.vue';
-
-export { Tooltip };
+export { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../__base/tooltip';

@@ -1,3 +1,1 @@
-import { default as HoverCard } from './HoverCard.vue';
-
-export { HoverCard };
+export { HoverCard, HoverCardContent, HoverCardTrigger } from '../__base/hover-card';

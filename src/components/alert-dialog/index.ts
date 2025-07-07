@@ -1,5 +1,11 @@
-import { default as AlertDialog } from './AlertDialog.vue';
-
-export type * from './types';
-
-export { AlertDialog };
+export {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '../__base/alert-dialog';
