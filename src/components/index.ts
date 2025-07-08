@@ -8,6 +8,7 @@ export * from './button';
 export * from './button-icon';
 export * from './button-link';
 export * from './card';
+export * from './calendar';
 export * from './checkbox';
 export * from './combobox';
 export * from './context-menu';
