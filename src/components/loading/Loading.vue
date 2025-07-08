@@ -7,7 +7,7 @@ const props = defineProps<LoadingProps>();
 </script>
 
 <template>
-  <div :class="cn('flex items-center justify-center', props.class)">
+  <div :class="cn('flex size-full items-center justify-center', props.class)">
     <component :is="icon ?? LoaderCircle" :class="cn('loading-icon size-6', iconClass)" />
   </div>
 </template>

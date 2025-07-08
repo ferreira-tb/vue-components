@@ -28,6 +28,7 @@ export default defineConfig({
         'reka-ui',
         'tailwind-merge',
         'tw-animate-css',
+        'vaul-vue',
       ],
     },
   },
