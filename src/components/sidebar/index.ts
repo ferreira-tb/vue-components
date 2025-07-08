@@ -1,10 +1,5 @@
-import { default as Sidebar } from './Sidebar.vue';
-
-export type * from './types';
-
-export { Sidebar };
-
 export {
+  Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarGroup,
@@ -25,6 +20,7 @@ export {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
+  type SidebarProps,
   SidebarProvider,
   SidebarRail,
   SidebarSeparator,
