@@ -21,6 +21,7 @@ export * from './label';
 export * from './link';
 export * from './loading';
 export * from './menubar';
+export * from './navigation-menu';
 export * from './pagination';
 export * from './popover';
 export * from './progress';

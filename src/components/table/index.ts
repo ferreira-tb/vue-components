@@ -5,6 +5,13 @@ export type * from './types';
 
 export { Table, TableLink };
 
-export { Table as TbTable, TableLink as TbTableLink };
-
-export { TableCell, TableEmpty, TableHead, TableRow } from '../__base/table';
+export {
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableEmpty,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '../__base/table';

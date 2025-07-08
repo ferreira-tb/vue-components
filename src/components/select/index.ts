@@ -4,8 +4,6 @@ export type * from './types';
 
 export { Select };
 
-export { Select as TbSelect };
-
 export {
   SelectGroup,
   SelectItem,
