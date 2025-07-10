@@ -11,6 +11,7 @@ export * from './card';
 export * from './calendar';
 export * from './checkbox';
 export * from './combobox';
+export * from './command';
 export * from './context-menu';
 export * from './dialog';
 export * from './drawer';
