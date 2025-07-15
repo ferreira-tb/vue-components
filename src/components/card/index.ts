@@ -1,5 +1,9 @@
-import { default as Card } from './Card.vue';
-
-export type * from './types';
-
-export { Card };
+export {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '../__base/card';

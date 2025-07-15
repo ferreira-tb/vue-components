@@ -1,10 +1,6 @@
-import { default as Select } from './Select.vue';
-
-export type * from './types';
-
-export { Select };
-
 export {
+  Select,
+  SelectContent,
   SelectGroup,
   SelectItem,
   SelectItemText,
@@ -12,4 +8,6 @@ export {
   SelectScrollDownButton,
   SelectScrollUpButton,
   SelectSeparator,
+  SelectTrigger,
+  SelectValue,
 } from '../__base/select';
