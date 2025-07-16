@@ -2,11 +2,12 @@
 import type { HTMLAttributes } from 'vue';
 import { cn } from '../../../utils';
 import { useVModel } from '@vueuse/core';
+import type { Option } from '@tb-dev/utils';
 
 const props = defineProps<{
   class?: HTMLAttributes['class'];
-  defaultValue?: string | number;
-  modelValue?: string | number;
+  defaultValue?: Option<string | number>;
+  modelValue?: Option<string | number>;
 }>();
 
 const emits = defineEmits<{
