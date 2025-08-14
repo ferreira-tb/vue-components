@@ -1,14 +1,9 @@
 <script setup lang="ts">
 import { cn } from '../../../utils';
-import {
-  SplitterGroup,
-  type SplitterGroupEmits,
-  type SplitterGroupProps,
-  useForwardPropsEmits,
-} from 'reka-ui';
+import { SplitterGroup, type SplitterGroupEmits, type SplitterGroupProps, useForwardPropsEmits } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 
-const props = defineProps<SplitterGroupProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<SplitterGroupProps & { class?: HTMLAttributes['class']; }>();
 const emits = defineEmits<SplitterGroupEmits>();
 
 const delegatedProps = computed(() => {

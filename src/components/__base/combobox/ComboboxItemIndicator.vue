@@ -4,7 +4,7 @@ import { cn } from '../../../utils';
 import { ComboboxItemIndicator, useForwardProps } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 
-const props = defineProps<ComboboxItemIndicatorProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<ComboboxItemIndicatorProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = computed(() => {
   const { class: _, ...delegated } = props;

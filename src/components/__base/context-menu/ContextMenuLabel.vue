@@ -4,7 +4,7 @@ import { ContextMenuLabel, type ContextMenuLabelProps } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 
 const props = defineProps<
-  ContextMenuLabelProps & { class?: HTMLAttributes['class']; inset?: boolean }
+  ContextMenuLabelProps & { class?: HTMLAttributes['class']; inset?: boolean; }
 >();
 
 const delegatedProps = computed(() => {

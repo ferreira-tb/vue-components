@@ -5,7 +5,7 @@ import { reactiveOmit } from '@vueuse/core';
 import { MenubarLabel, type MenubarLabelProps } from 'reka-ui';
 
 const props = defineProps<
-  MenubarLabelProps & { class?: HTMLAttributes['class']; inset?: boolean }
+  MenubarLabelProps & { class?: HTMLAttributes['class']; inset?: boolean; }
 >();
 const delegatedProps = reactiveOmit(props, 'class', 'inset');
 </script>

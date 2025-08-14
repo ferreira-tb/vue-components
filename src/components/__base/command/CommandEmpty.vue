@@ -6,7 +6,7 @@ import { computed, type HTMLAttributes } from 'vue';
 import { cn } from '../../../utils';
 import { useCommand } from '.';
 
-const props = defineProps<PrimitiveProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<PrimitiveProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 

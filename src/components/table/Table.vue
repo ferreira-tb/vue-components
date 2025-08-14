@@ -6,7 +6,7 @@ import { computed, type CSSProperties, type VNode } from 'vue';
 
 const props = defineProps<TableProps>();
 
-defineSlots<{ default: () => VNode }>();
+defineSlots<{ default: () => VNode; }>();
 
 const containerHeight = computed<Option<CSSProperties>>(() => {
   return props.height ? { maxHeight: toPixel(props.height) } : null;
@@ -21,14 +21,12 @@ const containerWidth = computed<Option<CSSProperties>>(() => {
   <div
     data-slot="table-container"
     :style="[containerHeight, containerWidth, style]"
-    :class="
-      cn(
-        'relative w-full',
-        containerWidth ? 'overflow-x-auto' : 'overflow-x-hidden',
-        containerHeight ? 'overflow-y-auto' : 'overflow-y-hidden',
-        props.class
-      )
-    "
+    :class="cn(
+      'relative w-full',
+      containerWidth ? 'overflow-x-auto' : 'overflow-x-hidden',
+      containerHeight ? 'overflow-y-auto' : 'overflow-y-hidden',
+      props.class,
+    )"
   >
     <table
       data-slot="table"

@@ -4,7 +4,7 @@ import { reactiveOmit } from '@vueuse/core';
 import { AccordionContent, type AccordionContentProps } from 'reka-ui';
 import { cn } from '../../../utils';
 
-const props = defineProps<AccordionContentProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<AccordionContentProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 </script>

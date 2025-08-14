@@ -6,7 +6,7 @@ import { type HTMLAttributes, reactive, ref, watch } from 'vue';
 import { cn } from '../../../utils';
 import { provideCommandContext } from '.';
 
-const props = withDefaults(defineProps<ListboxRootProps & { class?: HTMLAttributes['class'] }>(), {
+const props = withDefaults(defineProps<ListboxRootProps & { class?: HTMLAttributes['class']; }>(), {
   modelValue: '',
 });
 
@@ -67,7 +67,7 @@ watch(
   () => filterState.search,
   () => {
     filterItems();
-  }
+  },
 );
 
 provideCommandContext({
@@ -81,12 +81,10 @@ provideCommandContext({
   <ListboxRoot
     data-slot="command"
     v-bind="forwarded"
-    :class="
-      cn(
-        'bg-popover text-popover-foreground flex h-full w-full flex-col overflow-hidden rounded-md',
-        props.class
-      )
-    "
+    :class="cn(
+      'bg-popover text-popover-foreground flex h-full w-full flex-col overflow-hidden rounded-md',
+      props.class,
+    )"
   >
     <slot />
   </ListboxRoot>

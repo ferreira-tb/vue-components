@@ -5,7 +5,7 @@ import { AlertDialogCancel, type AlertDialogCancelProps } from 'reka-ui';
 import { cn } from '../../../utils';
 import { buttonVariants } from '../button';
 
-const props = defineProps<AlertDialogCancelProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<AlertDialogCancelProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 </script>

@@ -4,7 +4,7 @@ import { reactiveOmit } from '@vueuse/core';
 import { CalendarCell, type CalendarCellProps, useForwardProps } from 'reka-ui';
 import { cn } from '../../../utils';
 
-const props = defineProps<CalendarCellProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<CalendarCellProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 
@@ -14,12 +14,10 @@ const forwardedProps = useForwardProps(delegatedProps);
 <template>
   <CalendarCell
     data-slot="calendar-cell"
-    :class="
-      cn(
-        '[&:has([data-selected])]:bg-accent relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([data-selected])]:rounded-md',
-        props.class
-      )
-    "
+    :class="cn(
+      '[&:has([data-selected])]:bg-accent relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([data-selected])]:rounded-md',
+      props.class,
+    )"
     v-bind="forwardedProps"
   >
     <slot />

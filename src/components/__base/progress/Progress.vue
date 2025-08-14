@@ -3,7 +3,7 @@ import { cn } from '../../../utils';
 import { ProgressIndicator, ProgressRoot, type ProgressRootProps } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 
-const props = withDefaults(defineProps<ProgressRootProps & { class?: HTMLAttributes['class'] }>(), {
+const props = withDefaults(defineProps<ProgressRootProps & { class?: HTMLAttributes['class']; }>(), {
   modelValue: 0,
 });
 

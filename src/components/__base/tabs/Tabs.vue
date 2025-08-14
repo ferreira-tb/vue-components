@@ -5,7 +5,7 @@ import { cn } from '../../../utils';
 import { reactiveOmit } from '@vueuse/core';
 import { TabsRoot, useForwardPropsEmits } from 'reka-ui';
 
-const props = defineProps<TabsRootProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<TabsRootProps & { class?: HTMLAttributes['class']; }>();
 const emits = defineEmits<TabsRootEmits>();
 
 const delegatedProps = reactiveOmit(props, 'class');

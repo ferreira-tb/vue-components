@@ -41,3 +41,19 @@ export * from './tags-input';
 export * from './textarea';
 export * from './toggle';
 export * from './tooltip';
+
+export {
+  FocusScope,
+  Presence,
+  Primitive,
+  RovingFocusGroup,
+  RovingFocusItem,
+  Slot,
+  useDateFormatter,
+  useEmitAsProps,
+  useFilter,
+  useForwardExpose,
+  useForwardProps,
+  useForwardPropsEmits,
+  VisuallyHidden,
+} from 'reka-ui';

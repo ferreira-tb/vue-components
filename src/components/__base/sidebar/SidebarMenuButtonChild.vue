@@ -25,7 +25,7 @@ const props = withDefaults(defineProps<SidebarMenuButtonProps>(), {
     :data-size="size"
     :data-active="isActive"
     :class="cn(sidebarMenuButtonVariants({ variant, size }), props.class)"
-    :as="as"
+    :as
     :as-child="asChild"
     v-bind="$attrs"
   >

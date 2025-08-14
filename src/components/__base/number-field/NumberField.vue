@@ -4,7 +4,7 @@ import { cn } from '../../../utils';
 import { NumberFieldRoot, useForwardPropsEmits } from 'reka-ui';
 import { computed, type HTMLAttributes } from 'vue';
 
-const props = defineProps<NumberFieldRootProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<NumberFieldRootProps & { class?: HTMLAttributes['class']; }>();
 const emits = defineEmits<NumberFieldRootEmits>();
 
 const delegatedProps = computed(() => {

@@ -4,7 +4,7 @@ import { reactiveOmit } from '@vueuse/core';
 import { CalendarHeader, type CalendarHeaderProps, useForwardProps } from 'reka-ui';
 import { cn } from '../../../utils';
 
-const props = defineProps<CalendarHeaderProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<CalendarHeaderProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 

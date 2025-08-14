@@ -6,7 +6,7 @@ import { NavigationMenuTrigger, type NavigationMenuTriggerProps, useForwardProps
 import { cn } from '../../../utils';
 import { navigationMenuTriggerStyle } from '.';
 
-const props = defineProps<NavigationMenuTriggerProps & { class?: HTMLAttributes['class'] }>();
+const props = defineProps<NavigationMenuTriggerProps & { class?: HTMLAttributes['class']; }>();
 
 const delegatedProps = reactiveOmit(props, 'class');
 

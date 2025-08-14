@@ -14,7 +14,7 @@ const props = withDefaults(
   {
     title: 'Command Palette',
     description: 'Search for a command to run...',
-  }
+  },
 );
 const emits = defineEmits<DialogRootEmits>();
 

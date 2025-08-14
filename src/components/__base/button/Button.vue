@@ -20,7 +20,7 @@ const props = withDefaults(defineProps<Props>(), {
 <template>
   <Primitive
     data-slot="button"
-    :as="as"
+    :as
     :as-child="asChild"
     :type
     :class="cn(buttonVariants({ variant, size }), props.class)"
