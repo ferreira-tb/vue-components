@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { useMediaQuery, useVModel } from '@vueuse/core';
+import type { HTMLAttributes, Ref } from 'vue';
+import { defaultDocument, useMediaQuery, useVModel } from '@vueuse/core';
 import { TooltipProvider } from 'reka-ui';
-import { computed, type HTMLAttributes, type Ref, ref } from 'vue';
+import { computed, ref } from 'vue';
+import { cn } from '../../utils';
 import {
   provideSidebarContext,
   SIDEBAR_COOKIE_MAX_AGE,
@@ -18,7 +19,7 @@ const props = withDefaults(
     class?: HTMLAttributes['class'];
   }>(),
   {
-    defaultOpen: true,
+    defaultOpen: !defaultDocument?.cookie.includes(`${SIDEBAR_COOKIE_NAME}=false`),
     open: undefined,
   },
 );
@@ -53,7 +54,7 @@ function toggleSidebar() {
 
 // We add a state so that we can do data-state="expanded" or "collapsed".
 // This makes it easier to style the sidebar with Tailwind classes.
-const state = computed(() => (open.value ? 'expanded' : 'collapsed'));
+const state = computed(() => open.value ? 'expanded' : 'collapsed');
 
 provideSidebarContext({
   state,
@@ -74,10 +75,7 @@ provideSidebarContext({
         '--sidebar-width': SIDEBAR_WIDTH,
         '--sidebar-width-icon': SIDEBAR_WIDTH_ICON,
       }"
-      :class="cn(
-        'group/sidebar-wrapper has-data-[variant=inset]:bg-sidebar flex min-h-svh w-full',
-        props.class,
-      )"
+      :class="cn('group/sidebar-wrapper has-data-[variant=inset]:bg-sidebar flex min-h-svh w-full', props.class)"
       v-bind="$attrs"
     >
       <slot></slot>

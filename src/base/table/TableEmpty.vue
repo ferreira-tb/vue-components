@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import type { HTMLAttributes } from 'vue';
+import { reactiveOmit } from '@vueuse/core';
 import { cn } from '../../utils';
-import { computed, type HTMLAttributes } from 'vue';
 import TableCell from './TableCell.vue';
 import TableRow from './TableRow.vue';
 
@@ -14,17 +15,16 @@ const props = withDefaults(
   },
 );
 
-const delegatedProps = computed(() => {
-  const { class: _, ...delegated } = props;
-
-  return delegated;
-});
+const delegatedProps = reactiveOmit(props, 'class');
 </script>
 
 <template>
   <TableRow>
     <TableCell
-      :class="cn('text-foreground p-4 align-middle text-sm whitespace-nowrap', props.class)"
+      :class="cn(
+        'p-4 whitespace-nowrap align-middle text-sm text-foreground',
+        props.class,
+      )"
       v-bind="delegatedProps"
     >
       <div class="flex items-center justify-center py-10">

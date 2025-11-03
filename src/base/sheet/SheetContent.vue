@@ -1,16 +1,10 @@
 <script setup lang="ts">
+import type { DialogContentEmits, DialogContentProps } from 'reka-ui';
 import type { HTMLAttributes } from 'vue';
-import { cn } from '../../utils';
 import { reactiveOmit } from '@vueuse/core';
 import { X } from 'lucide-vue-next';
-import {
-  DialogClose,
-  DialogContent,
-  type DialogContentEmits,
-  type DialogContentProps,
-  DialogPortal,
-  useForwardPropsEmits,
-} from 'reka-ui';
+import { DialogClose, DialogContent, DialogPortal, useForwardPropsEmits } from 'reka-ui';
+import { cn } from '../../utils';
 import SheetOverlay from './SheetOverlay.vue';
 
 interface SheetContentProps extends DialogContentProps {
@@ -51,7 +45,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
       )"
       v-bind="{ ...forwarded, ...$attrs }"
     >
-      <slot></slot>
+      <slot />
 
       <DialogClose
         class="ring-offset-background focus:ring-ring data-[state=open]:bg-secondary absolute top-4 right-4 rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"

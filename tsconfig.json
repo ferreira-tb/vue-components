@@ -33,5 +33,9 @@
     "noEmitOnError": true,
 
     "types": ["vite/client"]
+  },
+  "vueCompilerOptions": {
+    "checkUnknownComponents": true,
+    "checkUnknownDirectives": true
   }
 }

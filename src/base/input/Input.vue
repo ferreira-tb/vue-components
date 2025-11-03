@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from 'vue';
-import { cn } from '../../utils';
 import { useVModel } from '@vueuse/core';
+import { cn } from '../../utils';
 import type { Option } from '@tb-dev/utils';
 
 const props = defineProps<{
@@ -30,5 +30,5 @@ const modelValue = useVModel(props, 'modelValue', emits, {
       'aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive',
       props.class,
     )"
-  />
+  >
 </template>
