@@ -1,1 +1,1 @@
-export { Avatar, AvatarFallback, AvatarImage } from '../__base/avatar';
+export { Avatar, AvatarFallback, AvatarImage } from '../../base/avatar';

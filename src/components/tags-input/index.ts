@@ -4,4 +4,4 @@ export {
   TagsInputItem,
   TagsInputItemDelete,
   TagsInputItemText,
-} from '../__base/tags-input';
+} from '../../base/tags-input';

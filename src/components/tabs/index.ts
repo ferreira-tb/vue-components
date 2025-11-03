@@ -1,1 +1,1 @@
-export { Tabs, TabsContent, TabsList, TabsTrigger } from '../__base/tabs';
+export { Tabs, TabsContent, TabsList, TabsTrigger } from '../../base/tabs';

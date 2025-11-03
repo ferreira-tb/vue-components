@@ -1,1 +1,1 @@
-export { Alert, AlertDescription, AlertTitle, type AlertVariants } from '../__base/alert';
+export { Alert, AlertDescription, AlertTitle, type AlertVariants } from '../../base/alert';

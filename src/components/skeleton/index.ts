@@ -1,1 +1,1 @@
-export { Skeleton } from '../__base/skeleton';
+export { Skeleton } from '../../base/skeleton';

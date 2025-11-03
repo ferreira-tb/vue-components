@@ -1,1 +1,1 @@
-export { RadioGroup, RadioGroupItem } from '../__base/radio-group';
+export { RadioGroup, RadioGroupItem } from '../../base/radio-group';

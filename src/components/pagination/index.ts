@@ -9,4 +9,4 @@ export {
   PaginationLast,
   PaginationNext,
   PaginationPrevious,
-} from '../__base/pagination';
+} from '../../base/pagination';

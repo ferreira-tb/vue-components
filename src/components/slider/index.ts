@@ -1,1 +1,1 @@
-export { Slider } from '../__base/slider';
+export { Slider } from '../../base/slider';

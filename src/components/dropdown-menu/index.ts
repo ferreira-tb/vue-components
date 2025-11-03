@@ -14,4 +14,4 @@ export {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from '../__base/dropdown-menu';
+} from '../../base/dropdown-menu';

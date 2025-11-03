@@ -8,4 +8,4 @@ export {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '../__base/alert-dialog';
+} from '../../base/alert-dialog';

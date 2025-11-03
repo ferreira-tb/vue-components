@@ -7,4 +7,4 @@ export {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '../__base/sheet';
+} from '../../base/sheet';

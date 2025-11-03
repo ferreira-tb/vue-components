@@ -6,4 +6,4 @@ export {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '../__base/card';
+} from '../../base/card';

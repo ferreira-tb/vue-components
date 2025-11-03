@@ -1,1 +1,1 @@
-export { Separator } from '../__base/separator';
+export { Separator } from '../../base/separator';

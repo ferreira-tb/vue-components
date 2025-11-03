@@ -8,4 +8,4 @@ export {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from '../__base/command';
+} from '../../base/command';

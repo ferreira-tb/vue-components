@@ -1,1 +1,1 @@
-export { HoverCard, HoverCardContent, HoverCardTrigger } from '../__base/hover-card';
+export { HoverCard, HoverCardContent, HoverCardTrigger } from '../../base/hover-card';

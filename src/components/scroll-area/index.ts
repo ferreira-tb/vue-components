@@ -1,1 +1,1 @@
-export { ScrollArea } from '../__base/scroll-area';
+export { ScrollArea } from '../../base/scroll-area';

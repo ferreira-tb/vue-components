@@ -1,5 +1,5 @@
-import type { BadgeVariants as Variants } from '../__base/badge';
+import type { BadgeVariants as Variants } from '../../base/badge';
 
 export type BadgeVariant = Variants['variant'];
 
-export { Badge } from '../__base/badge';
+export { Badge } from '../../base/badge';

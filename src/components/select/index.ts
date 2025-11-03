@@ -10,4 +10,4 @@ export {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from '../__base/select';
+} from '../../base/select';

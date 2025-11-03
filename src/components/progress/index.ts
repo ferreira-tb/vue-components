@@ -1,1 +1,1 @@
-export { Progress } from '../__base/progress';
+export { Progress } from '../../base/progress';

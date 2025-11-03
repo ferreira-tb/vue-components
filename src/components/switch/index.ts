@@ -1,1 +1,1 @@
-export { Switch } from '../__base/switch';
+export { Switch } from '../../base/switch';

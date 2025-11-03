@@ -13,4 +13,4 @@ export {
   TableHead,
   TableHeader,
   TableRow,
-} from '../__base/table';
+} from '../../base/table';

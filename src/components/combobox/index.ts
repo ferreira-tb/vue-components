@@ -11,4 +11,4 @@ export {
   ComboboxSeparator,
   ComboboxTrigger,
   ComboboxViewport,
-} from '../__base/combobox';
+} from '../../base/combobox';

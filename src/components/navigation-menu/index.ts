@@ -8,4 +8,4 @@ export {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
   NavigationMenuViewport,
-} from '../__base/navigation-menu';
+} from '../../base/navigation-menu';

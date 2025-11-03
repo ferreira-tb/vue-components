@@ -14,4 +14,4 @@ export {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from '../__base/menubar';
+} from '../../base/menubar';

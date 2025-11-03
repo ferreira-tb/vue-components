@@ -1,1 +1,1 @@
-export { Label } from '../__base/label';
+export { Label } from '../../base/label';

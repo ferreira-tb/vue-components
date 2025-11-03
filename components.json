@@ -14,7 +14,7 @@
     "components": "src/components",
     "composables": "src/composables",
     "utils": "src/utils",
-    "ui": "src/components/__base",
+    "ui": "src/base",
     "lib": "src/lib"
   }
 }

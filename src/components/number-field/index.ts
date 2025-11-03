@@ -4,4 +4,4 @@ export {
   NumberFieldDecrement,
   NumberFieldIncrement,
   NumberFieldInput,
-} from '../__base/number-field';
+} from '../../base/number-field';

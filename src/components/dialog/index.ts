@@ -9,4 +9,4 @@ export {
   DialogScrollContent,
   DialogTitle,
   DialogTrigger,
-} from '../__base/dialog';
+} from '../../base/dialog';

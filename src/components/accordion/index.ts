@@ -1,1 +1,1 @@
-export { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../__base/accordion';
+export { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../../base/accordion';

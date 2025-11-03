@@ -1,1 +1,1 @@
-export { Textarea } from '../__base/textarea';
+export { Textarea } from '../../base/textarea';
