@@ -21,6 +21,7 @@ export * from '../base/hover-card';
 export * from '../base/input';
 export * from '../base/input-group';
 export * from '../base/item';
+export * from '../base/kbd';
 export * from '../base/label';
 export * from './loading';
 export * from '../base/menubar';
