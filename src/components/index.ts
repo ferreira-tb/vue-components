@@ -17,6 +17,7 @@ export * from '../base/dialog';
 export * from '../base/drawer';
 export * from '../base/dropdown-menu';
 export * from '../base/empty';
+export * from '../base/field';
 export * from '../base/hover-card';
 export * from '../base/input';
 export * from '../base/input-group';
