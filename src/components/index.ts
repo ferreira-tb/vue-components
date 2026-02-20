@@ -41,6 +41,7 @@ export * from '../base/sidebar';
 export * from '../base/skeleton';
 export * from '../base/slider';
 export * from './sonner';
+export * from '../base/spinner';
 export * from '../base/switch';
 export * from './table';
 export * from '../base/tabs';
