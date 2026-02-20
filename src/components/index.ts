@@ -24,6 +24,7 @@ export * from '../base/item';
 export * from '../base/label';
 export * from './loading';
 export * from '../base/menubar';
+export * from '../base/native-select';
 export * from '../base/navigation-menu';
 export * from '../base/number-field';
 export * from './pagination';
