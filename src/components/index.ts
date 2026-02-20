@@ -19,6 +19,7 @@ export * from '../base/dropdown-menu';
 export * from '../base/empty';
 export * from '../base/hover-card';
 export * from '../base/input';
+export * from '../base/input-group';
 export * from '../base/item';
 export * from '../base/label';
 export * from './loading';
