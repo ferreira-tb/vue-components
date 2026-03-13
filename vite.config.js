@@ -7,7 +7,6 @@ import tailwind from '@tailwindcss/vite';
 export default defineConfig({
   plugins: [vue(), tailwind(), dts({ rollupTypes: false })],
   build: {
-    target: 'baseline-widely-available',
     outDir: 'dist',
     emptyOutDir: true,
     minify: false,
@@ -16,7 +15,7 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'index',
     },
-    rollupOptions: {
+    rolldownOptions: {
       external: [
         /^@tanstack/,
         /^@tb-dev/,
