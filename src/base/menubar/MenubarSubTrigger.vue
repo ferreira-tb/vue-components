@@ -2,7 +2,7 @@
 import type { HTMLAttributes } from 'vue';
 import { cn } from '../../utils';
 import { reactiveOmit } from '@vueuse/core';
-import { ChevronRight } from 'lucide-vue-next';
+import { ChevronRight } from '@lucide/vue';
 import { MenubarSubTrigger, type MenubarSubTriggerProps, useForwardProps } from 'reka-ui';
 
 const props = defineProps<

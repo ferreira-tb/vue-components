@@ -17,13 +17,13 @@ export default defineConfig({
     },
     rolldownOptions: {
       external: [
+        /^@lucide/,
         /^@tanstack/,
         /^@tb-dev/,
         /^@vueuse/,
         /^vue/,
         'class-variance-authority',
         'clsx',
-        'lucide-vue-next',
         'reka-ui',
         'tailwind-merge',
         'tw-animate-css',

@@ -2,7 +2,7 @@
 import type { HTMLAttributes } from 'vue';
 import { cn } from '../../utils';
 import { reactiveOmit } from '@vueuse/core';
-import { GripVertical } from 'lucide-vue-next';
+import { GripVertical } from '@lucide/vue';
 import {
   SplitterResizeHandle,
   type SplitterResizeHandleEmits,
