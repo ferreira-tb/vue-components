@@ -23,11 +23,11 @@ importers:
         specifier: ^8.21.3
         version: 8.21.3(vue@3.5.32(typescript@6.0.2))
       '@tb-dev/utils':
-        specifier: ^7.3.14
-        version: 7.3.14
+        specifier: ^7.3.15
+        version: 7.3.15
       '@tb-dev/vue':
-        specifier: ^4.0.16
-        version: 4.0.16(typescript@6.0.2)
+        specifier: ^4.0.17
+        version: 4.0.17(typescript@6.0.2)
       '@tb-dev/vue-sonner':
         specifier: ^0.1.7
         version: 0.1.7(typescript@6.0.2)
@@ -647,14 +647,14 @@ packages:
   '@tb-dev/eslint-config@9.1.4':
     resolution: {integrity: sha512-Qo4HRhNS9XtOLnWxnR1Y1EMB4z1bX45MOFkyWmRFmE9577RPXCCvqBJ77dVAeam5SycE9BP2x+j1E/XAMqw3UQ==}
 
-  '@tb-dev/utils@7.3.14':
-    resolution: {integrity: sha512-vASzCOHWy1Hcz5ISLUWH7UcHGkkI+GRwLJwbH1Yznt+t2z0nItbtL+wr54hQSYYymSQ0pjVfqmfVS2B5tzM/jg==}
+  '@tb-dev/utils@7.3.15':
+    resolution: {integrity: sha512-DRrJ7mm8NKLzQpLHhiDdhU8STcQPJ2JgQYXoq9Q43pFxozd5naF+3PBu3YWxbY9h6lqREAzVntL5EMJVtusoLw==}
 
   '@tb-dev/vue-sonner@0.1.7':
     resolution: {integrity: sha512-TDMaMTmKU9Tc+lZx+0RSZEpaCI05Anxe5fD5KlveHlXFDgha3r7rHPH60N51YqpLStn73jiO86eykFlaLNqbWA==}
 
-  '@tb-dev/vue@4.0.16':
-    resolution: {integrity: sha512-sWFPbYbJFPp2iHcVFVwgfHO+0pOYly/EmW2H4yb0ApOhINoNHZ4ZjiCTWmsi0mYrhbctSZG1yfBmnY1X9vN0SQ==}
+  '@tb-dev/vue@4.0.17':
+    resolution: {integrity: sha512-iffgVPHKeFnhfl3k+TtaN1I+nNBQMOdowk1XLWC+H4X2U1cLwXoDs8wEHSoFRG+W5XWosJHM3QQXeGQ5GTMZxw==}
 
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
@@ -2275,7 +2275,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tb-dev/utils@7.3.14': {}
+  '@tb-dev/utils@7.3.15': {}
 
   '@tb-dev/vue-sonner@0.1.7(typescript@6.0.2)':
     dependencies:
@@ -2283,9 +2283,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@tb-dev/vue@4.0.16(typescript@6.0.2)':
+  '@tb-dev/vue@4.0.17(typescript@6.0.2)':
     dependencies:
-      '@tb-dev/utils': 7.3.14
+      '@tb-dev/utils': 7.3.15
       '@vueuse/core': 14.2.1(vue@3.5.32(typescript@6.0.2))
       es-toolkit: 1.45.1
       vue: 3.5.32(typescript@6.0.2)

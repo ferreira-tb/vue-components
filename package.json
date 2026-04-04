@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/vue-components",
-  "version": "7.1.12",
+  "version": "7.1.13",
   "description": "Vue components",
   "license": "MIT",
   "type": "module",
@@ -33,8 +33,8 @@
   "dependencies": {
     "@lucide/vue": "^1.7.0",
     "@tanstack/vue-table": "^8.21.3",
-    "@tb-dev/utils": "^7.3.14",
-    "@tb-dev/vue": "^4.0.16",
+    "@tb-dev/utils": "^7.3.15",
+    "@tb-dev/vue": "^4.0.17",
     "@tb-dev/vue-sonner": "^0.1.7",
     "@vueuse/core": "^14.2.1",
     "class-variance-authority": "^0.7.1",
