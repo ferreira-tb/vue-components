@@ -29,8 +29,8 @@ importers:
         specifier: ^4.0.18
         version: 4.0.18(typescript@6.0.2)
       '@tb-dev/vue-sonner':
-        specifier: ^0.1.7
-        version: 0.1.7(typescript@6.0.2)
+        specifier: ^1.0.0
+        version: 1.0.0(typescript@6.0.2)
       '@vueuse/core':
         specifier: ^14.2.1
         version: 14.2.1(vue@3.5.32(typescript@6.0.2))
@@ -41,8 +41,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       reka-ui:
-        specifier: ^2.9.4
-        version: 2.9.4(vue@3.5.32(typescript@6.0.2))
+        specifier: ^2.9.5
+        version: 2.9.5(vue@3.5.32(typescript@6.0.2))
       tailwind-merge:
         specifier: ^3.5.0
         version: 3.5.0
@@ -51,7 +51,7 @@ importers:
         version: 1.4.0
       vaul-vue:
         specifier: ^0.4.1
-        version: 0.4.1(reka-ui@2.9.4(vue@3.5.32(typescript@6.0.2)))(vue@3.5.32(typescript@6.0.2))
+        version: 0.4.1(reka-ui@2.9.5(vue@3.5.32(typescript@6.0.2)))(vue@3.5.32(typescript@6.0.2))
       vue:
         specifier: ^3.5.32
         version: 3.5.32(typescript@6.0.2)
@@ -61,7 +61,7 @@ importers:
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
-        version: 4.2.2(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))
+        version: 4.2.2(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))
       '@tb-dev/eslint-config':
         specifier: ^10.0.5
         version: 10.0.5(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
@@ -70,7 +70,7 @@ importers:
         version: 25.5.2
       '@vitejs/plugin-vue':
         specifier: ^6.0.5
-        version: 6.0.5(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))(vue@3.5.32(typescript@6.0.2))
+        version: 6.0.5(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))(vue@3.5.32(typescript@6.0.2))
       eslint:
         specifier: ^10.2.0
         version: 10.2.0(jiti@2.6.1)
@@ -84,11 +84,11 @@ importers:
         specifier: ~6.0.2
         version: 6.0.2
       vite:
-        specifier: ^8.0.6
-        version: 8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
+        specifier: ^8.0.7
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
       vite-plugin-dts:
         specifier: ^4.5.4
-        version: 4.5.4(@types/node@25.5.2)(typescript@6.0.2)(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))
+        version: 4.5.4(@types/node@25.5.2)(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))
       vue-tsc:
         specifier: ^3.2.6
         version: 3.2.6(typescript@6.0.2)
@@ -653,8 +653,8 @@ packages:
   '@tb-dev/utils@7.3.16':
     resolution: {integrity: sha512-/KxWSe2LvGj0lZ9UrEiasJGeAH9oy/U58nXTMWmY1IO1LbRkL0xmKxbBmFy4PBaYuiNFmpC/KrccsaIQ0kbHHQ==}
 
-  '@tb-dev/vue-sonner@0.1.7':
-    resolution: {integrity: sha512-TDMaMTmKU9Tc+lZx+0RSZEpaCI05Anxe5fD5KlveHlXFDgha3r7rHPH60N51YqpLStn73jiO86eykFlaLNqbWA==}
+  '@tb-dev/vue-sonner@1.0.0':
+    resolution: {integrity: sha512-qDrD8gZAL+xmjjjZGGkI7xQia/GbEYgK61R3OYyZhn3ZhfLupirPHlTY4gUSF2/rgWMhoPo0fszXi+8QHFk5dA==}
 
   '@tb-dev/vue@4.0.18':
     resolution: {integrity: sha512-9YdvLWQyZhvwdubpkj/7YmLE4YSvHaD4PuLAVmCR75OQA3uEJW3UOqvQ4lMkrmaJc+hHGaYCSvYXAudxm4Lz4Q==}
@@ -1526,8 +1526,8 @@ packages:
     resolution: {integrity: sha512-NZQZdC5wOE/H3UT28fVGL+ikOZcEzfMGk/c3iN9UGxzWHMa1op7274oyiUVrAG4B2EuFhus8SvkaYnhvW92p9Q==}
     hasBin: true
 
-  reka-ui@2.9.4:
-    resolution: {integrity: sha512-Xz8yKl+5SwhzZU6lxTX9uCWydsv9+4zyYFv/LL+paa+sqnYZohdFqgkFxtroEy75fdoyFIlCXZK1VtSF9YVESA==}
+  reka-ui@2.9.5:
+    resolution: {integrity: sha512-6cZGIMgEeslpFLJ7IihaCSMPp1cJgl2eDkZ2vBMdl+HPUVBaV/iDPMWu3abT2KUkj1lir+oyHq5KelOTT9OheQ==}
     peerDependencies:
       vue: '>= 3.4.0'
 
@@ -1701,8 +1701,8 @@ packages:
       vite:
         optional: true
 
-  vite@8.0.6:
-    resolution: {integrity: sha512-jeOXoY6N8rOfit/mZADMd0misLqjRdWBB3/S23ZQNuPcbVsfMBJutWD8b4ftdczMOsNyMBnKro0Z1Kt0HIqq5Q==}
+  vite@8.0.7:
+    resolution: {integrity: sha512-P1PbweD+2/udplnThz3btF4cf6AgPky7kk23RtHUkJIU5BIxwPprhRGmOAHs6FTI7UiGbTNrgNP6jSYD6JaRnw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2244,12 +2244,12 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.2.2
       '@tailwindcss/oxide-win32-x64-msvc': 4.2.2
 
-  '@tailwindcss/vite@4.2.2(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))':
+  '@tailwindcss/vite@4.2.2(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))':
     dependencies:
       '@tailwindcss/node': 4.2.2
       '@tailwindcss/oxide': 4.2.2
       tailwindcss: 4.2.2
-      vite: 8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
 
   '@tanstack/table-core@8.21.3': {}
 
@@ -2282,7 +2282,7 @@ snapshots:
 
   '@tb-dev/utils@7.3.16': {}
 
-  '@tb-dev/vue-sonner@0.1.7(typescript@6.0.2)':
+  '@tb-dev/vue-sonner@1.0.0(typescript@6.0.2)':
     dependencies:
       vue: 3.5.32(typescript@6.0.2)
     transitivePeerDependencies:
@@ -2409,10 +2409,10 @@ snapshots:
       '@typescript-eslint/types': 8.58.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-vue@6.0.5(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))(vue@3.5.32(typescript@6.0.2))':
+  '@vitejs/plugin-vue@6.0.5(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3))(vue@3.5.32(typescript@6.0.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-rc.2
-      vite: 8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
       vue: 3.5.32(typescript@6.0.2)
 
   '@volar/language-core@2.4.27':
@@ -3221,7 +3221,7 @@ snapshots:
     dependencies:
       jsesc: 3.1.0
 
-  reka-ui@2.9.4(vue@3.5.32(typescript@6.0.2)):
+  reka-ui@2.9.5(vue@3.5.32(typescript@6.0.2)):
     dependencies:
       '@floating-ui/dom': 1.7.0
       '@floating-ui/vue': 1.1.6(vue@3.5.32(typescript@6.0.2))
@@ -3376,15 +3376,15 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vaul-vue@0.4.1(reka-ui@2.9.4(vue@3.5.32(typescript@6.0.2)))(vue@3.5.32(typescript@6.0.2)):
+  vaul-vue@0.4.1(reka-ui@2.9.5(vue@3.5.32(typescript@6.0.2)))(vue@3.5.32(typescript@6.0.2)):
     dependencies:
       '@vueuse/core': 10.11.1(vue@3.5.32(typescript@6.0.2))
-      reka-ui: 2.9.4(vue@3.5.32(typescript@6.0.2))
+      reka-ui: 2.9.5(vue@3.5.32(typescript@6.0.2))
       vue: 3.5.32(typescript@6.0.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
 
-  vite-plugin-dts@4.5.4(@types/node@25.5.2)(typescript@6.0.2)(vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)):
+  vite-plugin-dts@4.5.4(@types/node@25.5.2)(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)):
     dependencies:
       '@microsoft/api-extractor': 7.52.7(@types/node@25.5.2)
       '@rollup/pluginutils': 5.1.4
@@ -3397,13 +3397,13 @@ snapshots:
       magic-string: 0.30.21
       typescript: 6.0.2
     optionalDependencies:
-      vite: 8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@8.0.6(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3):
+  vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(terser@5.43.1)(yaml@2.8.3):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4

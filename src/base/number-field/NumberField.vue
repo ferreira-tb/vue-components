@@ -8,13 +8,18 @@ import { cn } from '../../utils';
 const props = defineProps<NumberFieldRootProps & { class?: HTMLAttributes['class']; }>();
 const emits = defineEmits<NumberFieldRootEmits>();
 
-const delegatedProps = reactiveOmit(props, 'class');
+const delegatedProps = reactiveOmit(props, 'class', 'formatOptions');
 
 const forwarded = useForwardPropsEmits(delegatedProps, emits);
 </script>
 
 <template>
-  <NumberFieldRoot v-bind="forwarded" :class="cn('grid gap-1.5', props.class)">
-    <slot />
+  <NumberFieldRoot
+    #default="slotProps"
+    v-bind="forwarded"
+    :format-options="{ useGrouping: false, ...props.formatOptions ?? {} }"
+    :class="cn('grid gap-1.5', props.class)"
+  >
+    <slot v-bind="slotProps"></slot>
   </NumberFieldRoot>
 </template>
