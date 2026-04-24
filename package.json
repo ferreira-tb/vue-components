@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/vue-components",
-  "version": "7.1.18",
+  "version": "7.1.19",
   "description": "Vue components",
   "license": "MIT",
   "type": "module",
@@ -35,7 +35,7 @@
     "@tanstack/vue-table": "^8.21.3",
     "@tb-dev/utils": "^7.3.19",
     "@tb-dev/vue": "^4.0.21",
-    "@tb-dev/vue-sonner": "^1.0.0",
+    "@tb-dev/vue-sonner": "^1.0.1",
     "@vueuse/core": "^14.2.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
