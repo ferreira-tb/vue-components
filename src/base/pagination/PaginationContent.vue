@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { PaginationList, type PaginationListProps } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import { cn } from "../../utils";
+import { PaginationList, type PaginationListProps } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<PaginationListProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<PaginationListProps & { class?: HTMLAttributes["class"]; }>();
 
 const delegatedProps = computed(() => {
   const { class: _, ...delegated } = props;

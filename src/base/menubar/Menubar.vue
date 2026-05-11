@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { MenubarRoot, type MenubarRootEmits, type MenubarRootProps, useForwardPropsEmits } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import { cn } from "../../utils";
+import { MenubarRoot, type MenubarRootEmits, type MenubarRootProps, useForwardPropsEmits } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<MenubarRootProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<MenubarRootProps & { class?: HTMLAttributes["class"]; }>();
 const emits = defineEmits<MenubarRootEmits>();
 
 const delegatedProps = computed(() => {

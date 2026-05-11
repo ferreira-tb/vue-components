@@ -1,4 +1,4 @@
-export { PaginationList, PaginationListItem } from 'reka-ui';
+export { PaginationList, PaginationListItem } from "reka-ui";
 
 export {
   Pagination,
@@ -9,4 +9,4 @@ export {
   PaginationLast,
   PaginationNext,
   PaginationPrevious,
-} from '../../base/pagination';
+} from "../../base/pagination";

@@ -1,5 +1,5 @@
 /* eslint-disable perfectionist/sort-exports */
-import './style.css';
+import "./style.css";
 
-export * from './components';
-export * from './utils';
+export * from "./components";
+export * from "./utils";

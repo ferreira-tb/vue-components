@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import type { HTMLAttributes, Ref } from 'vue';
-import { defaultDocument, useMediaQuery, useVModel } from '@vueuse/core';
-import { TooltipProvider } from 'reka-ui';
-import { computed, ref } from 'vue';
-import { cn } from '../../utils';
+import type { HTMLAttributes, Ref } from "vue";
+import { defaultDocument, useMediaQuery, useVModel } from "@vueuse/core";
+import { TooltipProvider } from "reka-ui";
+import { computed, ref } from "vue";
+import { cn } from "../../utils";
 import {
   provideSidebarContext,
   SIDEBAR_COOKIE_MAX_AGE,
   SIDEBAR_COOKIE_NAME,
   SIDEBAR_WIDTH,
   SIDEBAR_WIDTH_ICON,
-} from './utils';
+} from "./utils";
 
 const props = withDefaults(
   defineProps<{
     defaultOpen?: boolean;
     open?: boolean;
-    class?: HTMLAttributes['class'];
+    class?: HTMLAttributes["class"];
   }>(),
   {
     defaultOpen: !defaultDocument?.cookie.includes(`${SIDEBAR_COOKIE_NAME}=false`),
@@ -25,13 +25,13 @@ const props = withDefaults(
 );
 
 const emits = defineEmits<{
-  'update:open': [open: boolean];
+  "update:open": [open: boolean];
 }>();
 
-const isMobile = useMediaQuery('(max-width: 768px)');
+const isMobile = useMediaQuery("(max-width: 768px)");
 const openMobile = ref(false);
 
-const open = useVModel(props, 'open', emits, {
+const open = useVModel(props, "open", emits, {
   defaultValue: props.defaultOpen ?? false,
   passive: (props.open === undefined) as false,
 }) as Ref<boolean>;
@@ -54,7 +54,7 @@ function toggleSidebar() {
 
 // We add a state so that we can do data-state="expanded" or "collapsed".
 // This makes it easier to style the sidebar with Tailwind classes.
-const state = computed(() => open.value ? 'expanded' : 'collapsed');
+const state = computed(() => open.value ? "expanded" : "collapsed");
 
 provideSidebarContext({
   state,

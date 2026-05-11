@@ -1,5 +1,5 @@
-import { default as Loading } from './Loading.vue';
+import { default as Loading } from "./Loading.vue";
 
-export type * from './types';
+export type * from "./types";
 
 export { Loading };

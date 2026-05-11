@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { TagsInputRoot, type TagsInputRootEmits, type TagsInputRootProps, useForwardPropsEmits } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import { cn } from "../../utils";
+import { TagsInputRoot, type TagsInputRootEmits, type TagsInputRootProps, useForwardPropsEmits } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<TagsInputRootProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<TagsInputRootProps & { class?: HTMLAttributes["class"]; }>();
 const emits = defineEmits<TagsInputRootEmits>();
 
 const delegatedProps = computed(() => {

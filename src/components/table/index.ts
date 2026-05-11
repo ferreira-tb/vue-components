@@ -1,6 +1,6 @@
-import { default as Table } from './Table.vue';
+import { default as Table } from "./Table.vue";
 
-export type * from './types';
+export type * from "./types";
 
 export { Table };
 
@@ -13,4 +13,4 @@ export {
   TableHead,
   TableHeader,
   TableRow,
-} from '../../base/table';
+} from "../../base/table";

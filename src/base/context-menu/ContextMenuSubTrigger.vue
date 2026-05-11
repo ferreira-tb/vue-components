@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { ChevronRight } from '@lucide/vue';
-import { ContextMenuSubTrigger, type ContextMenuSubTriggerProps, useForwardProps } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import { cn } from "../../utils";
+import { ChevronRight } from "@lucide/vue";
+import { ContextMenuSubTrigger, type ContextMenuSubTriggerProps, useForwardProps } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
 const props = defineProps<
-  ContextMenuSubTriggerProps & { class?: HTMLAttributes['class']; inset?: boolean; }
+  ContextMenuSubTriggerProps & { class?: HTMLAttributes["class"]; inset?: boolean; }
 >();
 
 const delegatedProps = computed(() => {

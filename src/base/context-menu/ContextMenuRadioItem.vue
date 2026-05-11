@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { Circle } from '@lucide/vue';
+import { cn } from "../../utils";
+import { Circle } from "@lucide/vue";
 import {
   ContextMenuItemIndicator,
   ContextMenuRadioItem,
   type ContextMenuRadioItemEmits,
   type ContextMenuRadioItemProps,
   useForwardPropsEmits,
-} from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+} from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<ContextMenuRadioItemProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<ContextMenuRadioItemProps & { class?: HTMLAttributes["class"]; }>();
 const emits = defineEmits<ContextMenuRadioItemEmits>();
 
 const delegatedProps = computed(() => {

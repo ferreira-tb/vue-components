@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { LoaderCircle } from '@lucide/vue';
-import type { LoadingProps } from './types';
+import { cn } from "../../utils";
+import { LoaderCircle } from "@lucide/vue";
+import type { LoadingProps } from "./types";
 
 const props = defineProps<LoadingProps>();
 </script>

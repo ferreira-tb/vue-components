@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import { MenubarContent, type MenubarContentProps, MenubarPortal, useForwardProps } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import { cn } from "../../utils";
+import { MenubarContent, type MenubarContentProps, MenubarPortal, useForwardProps } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
 const props = withDefaults(
-  defineProps<MenubarContentProps & { class?: HTMLAttributes['class']; }>(),
+  defineProps<MenubarContentProps & { class?: HTMLAttributes["class"]; }>(),
   {
-    align: 'start',
+    align: "start",
     alignOffset: -4,
     sideOffset: 8,
   },

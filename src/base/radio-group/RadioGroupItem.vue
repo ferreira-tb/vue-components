@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { RadioGroupItemProps } from 'reka-ui';
-import type { HTMLAttributes } from 'vue';
-import { cn } from '../../utils';
-import { CircleIcon } from '@lucide/vue';
-import { RadioGroupIndicator, RadioGroupItem, useForwardProps } from 'reka-ui';
-import { computed } from 'vue';
+import type { RadioGroupItemProps } from "reka-ui";
+import type { HTMLAttributes } from "vue";
+import { cn } from "../../utils";
+import { CircleIcon } from "@lucide/vue";
+import { RadioGroupIndicator, RadioGroupItem, useForwardProps } from "reka-ui";
+import { computed } from "vue";
 
-const props = defineProps<RadioGroupItemProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<RadioGroupItemProps & { class?: HTMLAttributes["class"]; }>();
 
 const delegatedProps = computed(() => {
   const { class: _, ...delegated } = props;

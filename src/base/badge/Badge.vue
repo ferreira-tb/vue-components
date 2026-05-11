@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { PrimitiveProps } from 'reka-ui';
-import { cn } from '../../utils';
-import { Primitive } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
-import { type BadgeVariants, badgeVariants } from '.';
+import type { PrimitiveProps } from "reka-ui";
+import { cn } from "../../utils";
+import { Primitive } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
+import { type BadgeVariants, badgeVariants } from ".";
 
 const props = defineProps<
   PrimitiveProps & {
-    variant?: BadgeVariants['variant'];
-    class?: HTMLAttributes['class'];
+    variant?: BadgeVariants["variant"];
+    class?: HTMLAttributes["class"];
   }
 >();
 

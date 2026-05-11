@@ -1,14 +1,14 @@
 <script lang="ts" setup>
-import type { HTMLAttributes } from 'vue';
-import { reactiveOmit } from '@vueuse/core';
-import { ChevronRight } from '@lucide/vue';
-import { CalendarNext, type CalendarNextProps, useForwardProps } from 'reka-ui';
-import { cn } from '../../utils';
-import { buttonVariants } from '../button';
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import { ChevronRight } from "@lucide/vue";
+import { CalendarNext, type CalendarNextProps, useForwardProps } from "reka-ui";
+import { cn } from "../../utils";
+import { buttonVariants } from "../button";
 
-const props = defineProps<CalendarNextProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<CalendarNextProps & { class?: HTMLAttributes["class"]; }>();
 
-const delegatedProps = reactiveOmit(props, 'class');
+const delegatedProps = reactiveOmit(props, "class");
 
 const forwardedProps = useForwardProps(delegatedProps);
 </script>

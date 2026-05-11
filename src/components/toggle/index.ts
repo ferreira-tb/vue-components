@@ -1,6 +1,6 @@
-import type { ToggleVariants as Variants } from '../../base/toggle';
+import type { ToggleVariants as Variants } from "../../base/toggle";
 
-export type ToggleVariant = Variants['variant'];
-export type ToggleSize = Variants['size'];
+export type ToggleVariant = Variants["variant"];
+export type ToggleSize = Variants["size"];
 
-export { Toggle } from '../../base/toggle';
+export { Toggle } from "../../base/toggle";

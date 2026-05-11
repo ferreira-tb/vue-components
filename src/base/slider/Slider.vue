@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { SliderRootEmits, SliderRootProps } from 'reka-ui';
-import { cn } from '../../utils';
-import { SliderRange, SliderRoot, SliderThumb, SliderTrack, useForwardPropsEmits } from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+import type { SliderRootEmits, SliderRootProps } from "reka-ui";
+import { cn } from "../../utils";
+import { SliderRange, SliderRoot, SliderThumb, SliderTrack, useForwardPropsEmits } from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<SliderRootProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<SliderRootProps & { class?: HTMLAttributes["class"]; }>();
 const emits = defineEmits<SliderRootEmits>();
 
 const delegatedProps = computed(() => {

@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import type { HTMLAttributes } from 'vue';
-import { reactiveOmit } from '@vueuse/core';
-import { CalendarGrid, type CalendarGridProps, useForwardProps } from 'reka-ui';
-import { cn } from '../../utils';
+import type { HTMLAttributes } from "vue";
+import { reactiveOmit } from "@vueuse/core";
+import { CalendarGrid, type CalendarGridProps, useForwardProps } from "reka-ui";
+import { cn } from "../../utils";
 
-const props = defineProps<CalendarGridProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<CalendarGridProps & { class?: HTMLAttributes["class"]; }>();
 
-const delegatedProps = reactiveOmit(props, 'class');
+const delegatedProps = reactiveOmit(props, "class");
 
 const forwardedProps = useForwardProps(delegatedProps);
 </script>

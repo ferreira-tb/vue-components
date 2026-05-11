@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
+import { cn } from "../../utils";
 import {
   PopoverContent,
   type PopoverContentEmits,
   type PopoverContentProps,
   PopoverPortal,
   useForwardPropsEmits,
-} from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+} from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
 defineOptions({
   inheritAttrs: false,
 });
 
 const props = withDefaults(
-  defineProps<PopoverContentProps & { class?: HTMLAttributes['class']; }>(),
+  defineProps<PopoverContentProps & { class?: HTMLAttributes["class"]; }>(),
   {
-    align: 'center',
+    align: "center",
     sideOffset: 4,
   },
 );

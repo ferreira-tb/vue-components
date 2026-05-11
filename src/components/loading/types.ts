@@ -1,7 +1,7 @@
-import type { Component, HTMLAttributes } from 'vue';
+import type { Component, HTMLAttributes } from "vue";
 
 export interface LoadingProps {
-  class?: HTMLAttributes['class'];
+  class?: HTMLAttributes["class"];
   icon?: Component;
-  iconClass?: HTMLAttributes['class'];
+  iconClass?: HTMLAttributes["class"];
 }

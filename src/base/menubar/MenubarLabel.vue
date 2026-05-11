@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { HTMLAttributes } from 'vue';
-import { cn } from '../../utils';
-import { reactiveOmit } from '@vueuse/core';
-import { MenubarLabel, type MenubarLabelProps } from 'reka-ui';
+import type { HTMLAttributes } from "vue";
+import { cn } from "../../utils";
+import { reactiveOmit } from "@vueuse/core";
+import { MenubarLabel, type MenubarLabelProps } from "reka-ui";
 
 const props = defineProps<
-  MenubarLabelProps & { class?: HTMLAttributes['class']; inset?: boolean; }
+  MenubarLabelProps & { class?: HTMLAttributes["class"]; inset?: boolean; }
 >();
-const delegatedProps = reactiveOmit(props, 'class', 'inset');
+const delegatedProps = reactiveOmit(props, "class", "inset");
 </script>
 
 <template>

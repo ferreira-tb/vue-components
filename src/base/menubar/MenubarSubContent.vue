@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
+import { cn } from "../../utils";
 import {
   MenubarPortal,
   MenubarSubContent,
   type MenubarSubContentEmits,
   type MenubarSubContentProps,
   useForwardPropsEmits,
-} from 'reka-ui';
-import { computed, type HTMLAttributes } from 'vue';
+} from "reka-ui";
+import { computed, type HTMLAttributes } from "vue";
 
-const props = defineProps<MenubarSubContentProps & { class?: HTMLAttributes['class']; }>();
+const props = defineProps<MenubarSubContentProps & { class?: HTMLAttributes["class"]; }>();
 const emits = defineEmits<MenubarSubContentEmits>();
 
 const delegatedProps = computed(() => {

@@ -1,23 +1,23 @@
-import { join } from 'node:path';
-import dts from 'unplugin-dts/vite';
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import tailwind from '@tailwindcss/vite';
+import { join } from "node:path";
+import dts from "unplugin-dts/vite";
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import tailwind from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
     vue(),
     tailwind(),
-    dts({ rollupTypes: false }),
+    dts({ bundleTypes: false }),
   ],
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     emptyOutDir: true,
     minify: false,
     lib: {
-      entry: join(import.meta.dirname, 'src/index.ts'),
-      formats: ['es'],
-      fileName: 'index',
+      entry: join(import.meta.dirname, "src/index.ts"),
+      formats: ["es"],
+      fileName: "index",
     },
     rolldownOptions: {
       external: [
@@ -26,12 +26,12 @@ export default defineConfig({
         /^@tb-dev/,
         /^@vueuse/,
         /^vue/,
-        'class-variance-authority',
-        'clsx',
-        'reka-ui',
-        'tailwind-merge',
-        'tw-animate-css',
-        'vaul-vue',
+        "class-variance-authority",
+        "clsx",
+        "reka-ui",
+        "tailwind-merge",
+        "tw-animate-css",
+        "vaul-vue",
       ],
     },
   },

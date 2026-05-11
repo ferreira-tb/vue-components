@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { cn } from '../../utils';
-import type { TableProps } from './types';
-import { type Option, toPixel } from '@tb-dev/utils';
-import { computed, type CSSProperties, type VNode } from 'vue';
+import { cn } from "../../utils";
+import type { TableProps } from "./types";
+import { type Option, toPixel } from "@tb-dev/utils";
+import { computed, type CSSProperties, type VNode } from "vue";
 
 const props = defineProps<TableProps>();
 
