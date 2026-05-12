@@ -22,7 +22,6 @@ export default defineConfig({
     rolldownOptions: {
       external: [
         /^@lucide/,
-        /^@tanstack/,
         /^@tb-dev/,
         /^@vueuse/,
         /^vue/,

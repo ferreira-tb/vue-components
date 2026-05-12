@@ -1,11 +1,11 @@
 {
   "name": "@tb-dev/vue-components",
-  "version": "7.1.22",
+  "version": "7.1.23",
   "description": "Vue components",
   "license": "MIT",
   "type": "module",
   "private": false,
-  "packageManager": "pnpm@11.0.9",
+  "packageManager": "pnpm@11.1.1",
   "funding": "https://github.com/sponsors/ferreira-tb",
   "author": {
     "name": "Andrew Ferreira",
@@ -29,8 +29,7 @@
   },
   "dependencies": {
     "@lucide/vue": "^1.14.0",
-    "@tanstack/vue-table": "^8.21.3",
-    "@tb-dev/utils": "^7.3.21",
+    "@tb-dev/utils": "^7.3.22",
     "@tb-dev/vue": "^4.0.24",
     "@tb-dev/vue-sonner": "^1.0.4",
     "@vueuse/core": "^14.3.0",
