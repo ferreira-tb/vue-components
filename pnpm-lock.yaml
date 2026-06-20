@@ -26,8 +26,8 @@ importers:
         specifier: ^4.0.26
         version: 4.0.26(typescript@6.0.3)
       '@tb-dev/vue-sonner':
-        specifier: ^1.0.5
-        version: 1.0.5(typescript@6.0.3)
+        specifier: ^1.0.6
+        version: 1.0.6(typescript@6.0.3)
       '@vueuse/core':
         specifier: ^14.3.0
         version: 14.3.0(vue@3.5.38)
@@ -475,8 +475,8 @@ packages:
   '@tb-dev/utils@7.3.25':
     resolution: {integrity: sha512-ZdzbjzTKyiQiSaulp3bGUjUMwd6TwI1SKcHT1YM8aKoVqYZCuWXhIiLWoFDuWOU3HPSc4a3qzZff0onN0nwZhA==}
 
-  '@tb-dev/vue-sonner@1.0.5':
-    resolution: {integrity: sha512-4t+2IrymnCiVBqxGXeJQR2EVWx4gbu7PXYz5ukY0D/yUYd4dCVAQfJlUfmXC2nTicnLE7OXLk7e1SVLQWQYixw==}
+  '@tb-dev/vue-sonner@1.0.6':
+    resolution: {integrity: sha512-2Hfxgy/1FxE5akAo8VspR6g5fee630Jv+9V3bGDE3tqcnvzM8zsHtcmLeF0NWd4vg7oBlXeHRDOKLnrsh3tw4A==}
 
   '@tb-dev/vue@4.0.26':
     resolution: {integrity: sha512-4qdV7rchWTpx1mlIvmAzHFgYOz2OW1G3en2gLq+2zV5VaeI7uDY6FilKW+0yB37Oq2TOsjD2OgHv4V0tp/K+KA==}
@@ -1792,7 +1792,7 @@ snapshots:
 
   '@tb-dev/utils@7.3.25': {}
 
-  '@tb-dev/vue-sonner@1.0.5(typescript@6.0.3)':
+  '@tb-dev/vue-sonner@1.0.6(typescript@6.0.3)':
     dependencies:
       vue: 3.5.38(typescript@6.0.3)
     transitivePeerDependencies:

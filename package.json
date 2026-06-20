@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/vue-components",
-  "version": "7.1.25",
+  "version": "7.1.26",
   "description": "Vue components",
   "license": "MIT",
   "type": "module",
@@ -31,7 +31,7 @@
     "@lucide/vue": "^1.21.0",
     "@tb-dev/utils": "^7.3.25",
     "@tb-dev/vue": "^4.0.26",
-    "@tb-dev/vue-sonner": "^1.0.5",
+    "@tb-dev/vue-sonner": "^1.0.6",
     "@vueuse/core": "^14.3.0",
     "class-variance-authority": "~0.7.1",
     "clsx": "~2.1.1",
