@@ -6,12 +6,14 @@ minimumReleaseAgeStrict: true
 minimumReleaseAgeExclude:
   - "@tb-dev/*"
   - "@tsukilabs/*"
+  - brace-expansion@5.0.6
 
 allowBuilds:
   vue-demi: false
 
 overrides:
   ajv@>=7.0.0-alpha.0 <8.18.0: ">=8.18.0"
+  brace-expansion@>=5.0.0 <5.0.6: ^5.0.6
   defu@<=6.1.4: ">=6.1.5"
   lodash@<=4.17.23: ">=4.18.0"
   minimatch@<3.1.4: ">=3.1.4"
