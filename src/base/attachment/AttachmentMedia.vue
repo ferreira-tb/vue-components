@@ -16,6 +16,6 @@ const props = defineProps<{
     :data-variant="variant"
     :class="cn(attachmentMediaVariants({ variant }), props.class)"
   >
-    <slot />
+    <slot></slot>
   </div>
 </template>

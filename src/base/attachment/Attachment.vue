@@ -26,6 +26,6 @@ const props = withDefaults(defineProps<Props>(), {
     :data-orientation="orientation"
     :class="cn(attachmentVariants({ size, orientation }), props.class)"
   >
-    <slot />
+    <slot></slot>
   </div>
 </template>

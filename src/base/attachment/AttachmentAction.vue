@@ -12,7 +12,7 @@ interface Props extends PrimitiveProps {
 
 const props = withDefaults(defineProps<Props>(), {
   variant: "ghost",
-  size: "icon-sm",
+  size: "icon-xs",
 });
 </script>
 
@@ -22,6 +22,6 @@ const props = withDefaults(defineProps<Props>(), {
     :variant
     :size
   >
-    <slot />
+    <slot></slot>
   </Button>
 </template>

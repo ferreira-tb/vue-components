@@ -21,7 +21,7 @@ const forwardedProps = useForwardProps(delegatedProps);
       props.class,
     )"
   >
-    <slot />
+    <slot></slot>
     <ChevronRight class="ml-auto size-4" />
   </DropdownMenuSubTrigger>
 </template>
