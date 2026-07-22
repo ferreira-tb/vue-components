@@ -29,6 +29,7 @@ export * from "../base/label";
 export * from "./loading";
 export * from "../base/marker";
 export * from "../base/menubar";
+export * from "../base/message";
 export * from "../base/native-select";
 export * from "../base/navigation-menu";
 export * from "../base/number-field";
