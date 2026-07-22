@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from "vue";
 import { onBeforeUnmount, onMounted, useTemplateRef, watch } from "vue";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 import { SCROLL_KEYS, useMessageScrollerContext } from "./useMessageScroller";
 
 const props = withDefaults(
@@ -76,6 +76,6 @@ onBeforeUnmount(() => {
     @touchmove="userScrollIntent()"
     @keydown="onKeyDown"
   >
-    <slot />
+    <slot></slot>
   </div>
 </template>

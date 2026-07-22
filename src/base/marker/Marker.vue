@@ -3,7 +3,7 @@ import type { PrimitiveProps } from "reka-ui";
 import type { HTMLAttributes } from "vue";
 import type { MarkerVariants } from ".";
 import { Primitive } from "reka-ui";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 import { markerVariants } from ".";
 
 interface Props extends PrimitiveProps {
@@ -24,6 +24,6 @@ const props = withDefaults(defineProps<Props>(), {
     :as-child="asChild"
     :class="cn(markerVariants({ variant }), props.class)"
   >
-    <slot />
+    <slot></slot>
   </Primitive>
 </template>

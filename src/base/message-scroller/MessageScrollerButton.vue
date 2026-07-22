@@ -4,7 +4,7 @@ import type { MessageScrollerButtonDirection } from "./useMessageScroller";
 import type { ButtonVariants } from "../button";
 import { ArrowDownIcon } from "@lucide/vue";
 import { computed } from "vue";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 import { Button } from "../button";
 import { useMessageScroller, useMessageScrollerScrollable } from "./useMessageScroller";
 

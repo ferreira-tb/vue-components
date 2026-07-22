@@ -3,7 +3,7 @@ import type { PrimitiveProps } from "reka-ui";
 import type { HTMLAttributes } from "vue";
 import type { BubbleReactionsVariants } from ".";
 import { Primitive } from "reka-ui";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 import { bubbleReactionsVariants } from ".";
 
 interface Props extends PrimitiveProps {
@@ -28,6 +28,6 @@ const props = withDefaults(defineProps<Props>(), {
     :as-child="asChild"
     :class="cn(bubbleReactionsVariants({ side, align }), props.class)"
   >
-    <slot />
+    <slot></slot>
   </Primitive>
 </template>

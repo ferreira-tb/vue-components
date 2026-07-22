@@ -8,5 +8,5 @@ provideMessageScroller(props);
 </script>
 
 <template>
-  <slot />
+  <slot></slot>
 </template>

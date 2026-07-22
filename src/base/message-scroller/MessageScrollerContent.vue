@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from "vue";
 import { onBeforeUnmount, onMounted, useTemplateRef } from "vue";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 import { useMessageScrollerContext } from "./useMessageScroller";
 
 const props = defineProps<{
@@ -66,7 +66,7 @@ onBeforeUnmount(() => {
     aria-relevant="additions"
     :class="cn('flex h-max min-h-full flex-col gap-8', props.class)"
   >
-    <slot />
+    <slot></slot>
     <div
       ref="spacer"
       aria-hidden="true"

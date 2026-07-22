@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from "vue";
-import { cn } from "src/utils";
+import { cn } from "../../utils";
 
 interface Props {
   class?: HTMLAttributes["class"];
@@ -17,6 +17,6 @@ const props = defineProps<Props>();
       props.class,
     )"
   >
-    <slot />
+    <slot></slot>
   </span>
 </template>
