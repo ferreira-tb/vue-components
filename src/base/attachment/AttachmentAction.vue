@@ -22,6 +22,6 @@ const props = withDefaults(defineProps<Props>(), {
     :variant
     :size
   >
-    <slot></slot>
+    <slot />
   </Button>
 </template>

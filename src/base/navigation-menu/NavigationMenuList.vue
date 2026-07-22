@@ -21,6 +21,6 @@ const forwardedProps = useForwardProps(delegatedProps);
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </NavigationMenuList>
 </template>

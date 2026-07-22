@@ -16,6 +16,6 @@ const props = defineProps<{
     )"
     v-bind="props"
   >
-    <slot></slot>
+    <slot />
   </div>
 </template>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { HoverCardRoot, type HoverCardRootEmits, type HoverCardRootProps, useForwardPropsEmits } from "reka-ui";
+import type { HoverCardRootEmits, HoverCardRootProps } from "reka-ui";
+import { HoverCardRoot, useForwardPropsEmits } from "reka-ui";
 
 const props = defineProps<HoverCardRootProps>();
 const emits = defineEmits<HoverCardRootEmits>();
@@ -8,7 +9,11 @@ const forwarded = useForwardPropsEmits(props, emits);
 </script>
 
 <template>
-  <HoverCardRoot data-slot="hover-card" v-bind="forwarded">
-    <slot></slot>
+  <HoverCardRoot
+    #default="slotProps"
+    data-slot="hover-card"
+    v-bind="forwarded"
+  >
+    <slot v-bind="slotProps" />
   </HoverCardRoot>
 </template>

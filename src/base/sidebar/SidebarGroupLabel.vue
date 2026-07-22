@@ -23,6 +23,6 @@ const props = defineProps<
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </Primitive>
 </template>

@@ -76,6 +76,6 @@ onBeforeUnmount(() => {
     @touchmove="userScrollIntent()"
     @keydown="onKeyDown"
   >
-    <slot></slot>
+    <slot />
   </div>
 </template>

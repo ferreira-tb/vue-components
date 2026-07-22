@@ -66,7 +66,7 @@ onBeforeUnmount(() => {
     aria-relevant="additions"
     :class="cn('flex h-max min-h-full flex-col gap-8', props.class)"
   >
-    <slot></slot>
+    <slot />
     <div
       ref="spacer"
       aria-hidden="true"

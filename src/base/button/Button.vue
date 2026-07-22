@@ -29,6 +29,6 @@ const props = withDefaults(defineProps<Props>(), {
     :type
     :class="cn(buttonVariants({ variant, size }), props.class)"
   >
-    <slot></slot>
+    <slot />
   </Primitive>
 </template>

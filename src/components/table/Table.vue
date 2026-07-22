@@ -33,7 +33,7 @@ const containerWidth = computed<Option<CSSProperties>>(() => {
       :style="tableStyle"
       :class="cn('w-full caption-bottom text-sm', props.tableClass)"
     >
-      <slot></slot>
+      <slot />
     </table>
   </div>
 </template>

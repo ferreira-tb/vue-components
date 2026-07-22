@@ -56,6 +56,6 @@ onBeforeUnmount(() => {
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </div>
 </template>

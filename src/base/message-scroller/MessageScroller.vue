@@ -20,6 +20,6 @@ const { autoscrolling, scrollableAttr } = useMessageScrollerContext();
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </div>
 </template>

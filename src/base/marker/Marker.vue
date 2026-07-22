@@ -24,6 +24,6 @@ const props = withDefaults(defineProps<Props>(), {
     :as-child="asChild"
     :class="cn(markerVariants({ variant }), props.class)"
   >
-    <slot></slot>
+    <slot />
   </Primitive>
 </template>

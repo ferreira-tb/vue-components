@@ -18,6 +18,6 @@ const props = withDefaults(defineProps<Props>(), {
     :as-child="asChild"
     :class="cn('absolute inset-0 z-10 outline-none', props.class)"
   >
-    <slot></slot>
+    <slot />
   </Primitive>
 </template>

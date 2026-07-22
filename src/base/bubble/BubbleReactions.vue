@@ -28,6 +28,6 @@ const props = withDefaults(defineProps<Props>(), {
     :as-child="asChild"
     :class="cn(bubbleReactionsVariants({ side, align }), props.class)"
   >
-    <slot></slot>
+    <slot />
   </Primitive>
 </template>

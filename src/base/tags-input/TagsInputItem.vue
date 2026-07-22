@@ -23,6 +23,6 @@ const forwardedProps = useForwardProps(delegatedProps);
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </TagsInputItem>
 </template>

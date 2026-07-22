@@ -14,6 +14,6 @@ const props = defineProps<{
       props.class,
     )"
   >
-    <slot></slot>
+    <slot />
   </div>
 </template>

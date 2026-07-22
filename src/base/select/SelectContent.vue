@@ -43,7 +43,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
             'h-(--reka-select-trigger-height) w-full min-w-(--reka-select-trigger-width) scroll-my-1',
         )"
       >
-        <slot></slot>
+        <slot />
       </SelectViewport>
       <SelectScrollDownButton />
     </SelectContent>
