@@ -1,6 +1,12 @@
 {
   "include": ["src/**/*", "src/**/*.vue"],
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
     "lib": ["esnext", "dom"],
     "module": "esnext",
     "moduleResolution": "bundler",

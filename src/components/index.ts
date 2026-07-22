@@ -2,6 +2,7 @@
 export * from "../base/accordion";
 export * from "../base/alert";
 export * from "../base/alert-dialog";
+export * from "../base/attachment";
 export * from "../base/avatar";
 export * from "./badge";
 export * from "./button";
@@ -53,16 +54,25 @@ export * from "../base/tooltip";
 
 export {
   FocusScope,
+  type FocusScopeEmits,
+  type FocusScopeProps,
   Presence,
+  type PresenceProps,
   Primitive,
+  type PrimitiveProps,
   RovingFocusGroup,
+  type RovingFocusGroupProps,
   RovingFocusItem,
+  type RovingFocusItemProps,
   Slot,
   useDateFormatter,
+  useDirection,
   useEmitAsProps,
   useFilter,
   useForwardExpose,
   useForwardProps,
   useForwardPropsEmits,
+  useLocale,
   VisuallyHidden,
+  type VisuallyHiddenProps,
 } from "reka-ui";
