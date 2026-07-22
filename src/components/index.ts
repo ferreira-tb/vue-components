@@ -5,6 +5,7 @@ export * from "../base/alert-dialog";
 export * from "../base/attachment";
 export * from "../base/avatar";
 export * from "./badge";
+export * from "../base/bubble";
 export * from "./button";
 export * from "../base/button-group";
 export * from "../base/card";
